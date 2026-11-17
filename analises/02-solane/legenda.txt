@@ -1,0 +1,17 @@
+Análise de Design 02: o site da Solane.
+
+Um assistente pessoal de IA que vende calma em vez de tecnologia. A página usa uma cor, poucos elementos e linhas de luz que levam o olho direto ao botão.
+
+No carrossel:
+· a anamnese do projeto
+· o design system completo
+· a anatomia da página, dobra por dobra
+· os 4 motivos que fazem esse site converter
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Abdul Saboor, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #inteligenciaartificial #landingpage #designsystem

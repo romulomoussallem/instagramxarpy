@@ -32,6 +32,22 @@
     "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/01-omni-v/slide7.jpg"
    ],
    "caption": "Análise de Design 01: o site da Omni-v.\n\nUma landing page de hardware para IA que transmite engenharia antes de você ler qualquer texto. Desmontamos o projeto para mostrar o que faz ele funcionar:\n\n· a anamnese: público, objetivo e sensação\n· o design system: paleta, tipografia e componentes\n· a anatomia da página, seção por seção\n· os 4 motivos que deixam o site com cara de produto premium\n\nNo penúltimo slide tem um prompt pronto para aplicar esse padrão no seu projeto com o Claude Code.\n\nProjeto original: AI Structura | Uncommon AI Web Design, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #inteligenciaartificial #claudecode #designsystem"
+  },
+  {
+   "n": "02",
+   "slot": "03:15",
+   "marker": "Análise de Design 02",
+   "folder": "02-solane",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/02-solane/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/02-solane/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/02-solane/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/02-solane/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/02-solane/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/02-solane/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/02-solane/slide7.jpg"
+   ],
+   "caption": "Análise de Design 02: o site da Solane.\n\nUm assistente pessoal de IA que vende calma em vez de tecnologia. A página usa uma cor, poucos elementos e linhas de luz que levam o olho direto ao botão.\n\nNo carrossel:\n· a anamnese do projeto\n· o design system completo\n· a anatomia da página, dobra por dobra\n· os 4 motivos que fazem esse site converter\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Abdul Saboor, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #inteligenciaartificial #landingpage #designsystem"
   }
  ]
 }
