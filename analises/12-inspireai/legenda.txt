@@ -1,0 +1,13 @@
+Análise de Design 12: o site da InspireAI.
+
+Céu aberto, campo de flores e uma bolha iridescente. Esse site de IA vende emoção em vez de função, e por isso se destaca num mercado de telas pretas.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Imran Hossan Emon, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #inteligenciaartificial #landingpage #designsystem

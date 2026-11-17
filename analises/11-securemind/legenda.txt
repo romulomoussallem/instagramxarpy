@@ -1,0 +1,13 @@
+Análise de Design 11: o site da SecureMind.
+
+Um agente de segurança com site claro e calmo, quando o mercado inteiro usa preto e hacker. Ir contra o padrão já é metade do trabalho de ser lembrado.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Techwitpro, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #inteligenciaartificial #landingpage #designsystem

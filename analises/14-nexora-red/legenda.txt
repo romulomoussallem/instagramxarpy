@@ -1,0 +1,13 @@
+Análise de Design 14: o site da Nexora.
+
+Automate. Innovate. Elevate. Três verbos com ponto final viram slogan, os números entram no hero e o vermelho aparece só onde precisa.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Arpan Dubey, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #inteligenciaartificial #landingpage #designsystem

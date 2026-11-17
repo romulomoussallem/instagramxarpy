@@ -1,0 +1,13 @@
+Análise de Design 13: o site da OmniBot.
+
+Um robô de US$ 45 mil vendido como lançamento de carro: luz suave, produto em contexto, números concretos e um único botão de reserva em cada seção.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Fylona Pixel, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #inteligenciaartificial #landingpage #designsystem
