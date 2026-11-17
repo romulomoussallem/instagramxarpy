@@ -112,6 +112,22 @@
     "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/06-frog/slide7.jpg"
    ],
    "caption": "Análise de Design 06: o site da Frog.\n\nUm agente de IA que usa um sapo como mascote, e funciona. O personagem tira o medo da tecnologia, o campo de pergunta mostra o produto logo no hero e o título em dois tons cria ritmo.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos por trás do resultado.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Woopicx, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #mascote #inteligenciaartificial #designsystem"
+  },
+  {
+   "n": "07",
+   "slot": "06:35",
+   "marker": "Análise de Design 07",
+   "folder": "07-aivance",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/07-aivance/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/07-aivance/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/07-aivance/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/07-aivance/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/07-aivance/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/07-aivance/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/07-aivance/slide7.jpg"
+   ],
+   "caption": "Análise de Design 07: o site da Aivance.\n\nPromessa, produto, recursos e clientes em uma única tela. Esse hero mostra como apresentar uma plataforma de IA inteira acima da dobra, com o vermelho usado só onde importa.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse site funcionar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Arpan Dubey, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #saas #inteligenciaartificial #designsystem"
   }
  ]
 }
