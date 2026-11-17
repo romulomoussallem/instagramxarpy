@@ -1,0 +1,23 @@
+10 skills do Claude Code que transformam o agente em um time de engenharia.
+
+Selecionamos as que mais usamos aqui na XARPY, separadas por prioridade. Cada slide traz o comando de instalação pronto para copiar.
+
+Essenciais
+01 Superpowers: planejamento, testes e revisão antes de entregar
+02 Frontend Design: interfaces com padrão de produto premium
+03 Impeccable: refinamento de UI e detecção de design genérico
+
+Alta prioridade
+04 UI UX Pro Max: design system e paletas
+05 React Best Practices: performance em React e Next.js
+06 Web Design Guidelines: auditoria de UX e acessibilidade
+07 Static Analysis: segurança com CodeQL e Semgrep
+08 Webapp Testing: testes automatizados no navegador
+09 Remotion: vídeos e animações feitos por código
+10 MCP Builder: integração com APIs e sistemas
+
+Se for começar hoje, instale a 01 e a 02. A diferença aparece no primeiro projeto.
+
+Salve para instalar depois e envie para quem trabalha com você.
+
+#claudecode #inteligenciaartificial #programacao #desenvolvimentoweb #ia
