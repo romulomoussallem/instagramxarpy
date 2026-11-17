@@ -128,6 +128,22 @@
     "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/07-aivance/slide7.jpg"
    ],
    "caption": "Análise de Design 07: o site da Aivance.\n\nPromessa, produto, recursos e clientes em uma única tela. Esse hero mostra como apresentar uma plataforma de IA inteira acima da dobra, com o vermelho usado só onde importa.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse site funcionar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Arpan Dubey, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #saas #inteligenciaartificial #designsystem"
+  },
+  {
+   "n": "08",
+   "slot": "07:15",
+   "marker": "Análise de Design 08",
+   "folder": "08-crypture",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/08-crypture/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/08-crypture/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/08-crypture/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/08-crypture/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/08-crypture/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/08-crypture/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/08-crypture/slide7.jpg"
+   ],
+   "caption": "Análise de Design 08: o site da Crypture.\n\nUm horizonte, um feixe de luz e títulos que vão do cinza ao branco. Esse site usa uma metáfora espacial para passar calma e confiança num mercado visto como arriscado.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Abdul Saboor, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #fintech #landingpage #designsystem"
   }
  ]
 }

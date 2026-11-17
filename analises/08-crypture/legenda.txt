@@ -1,0 +1,13 @@
+Análise de Design 08: o site da Crypture.
+
+Um horizonte, um feixe de luz e títulos que vão do cinza ao branco. Esse site usa uma metáfora espacial para passar calma e confiança num mercado visto como arriscado.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Abdul Saboor, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #fintech #landingpage #designsystem
