@@ -100,7 +100,7 @@ def build(d, out):
         f'<div class="cd" style="position:absolute;left:80px;right:80px;top:380px;font-size:27px">{lines(d["skeleton"])}</div>'))
     S.append(page(7, d, f'<div class="h" style="font-size:66px;top:190px">{d["cta"]}</div>'
         '<div class="list" style="position:absolute;left:80px;right:500px;top:620px">'
-        '<div><em>01</em><p>Salve o esqueleto</p></div><div><em>02</em><p>Comente qual prompt desmontar no próximo</p></div><div><em>03</em><p>Siga a @xarpy_dev</p></div></div>'
+        '<div><em>01</em><p>Salve o esqueleto</p></div><div><em>02</em><p>Comente qual prompt dissecar no próximo</p></div><div><em>03</em><p>Siga a @xarpy_dev</p></div></div>'
         + evilbot(0.95, 670, 690) + f'<div class="src" style="top:1135px">{d["source"]}</div>', right='<div class="pill">Salvar</div>'))
     for i, h in enumerate(S, 1):
         p = os.path.join(out, f"slide{i}.html"); open(p, "w").write(h)
