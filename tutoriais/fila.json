@@ -29,7 +29,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide7.jpg"
   ],
-  "caption": "Tutorial 02 da série de skills: Frontend Design.\n\nA skill oficial da Anthropic para resolver o maior problema das interfaces feitas com IA: todas parecem iguais. Com ela, o Claude pensa como diretor de design antes de escrever o código.\n\nNo carrossel você encontra a instalação, como usar, um pedido pronto para testar e os prós e contras.\n\nDica: quanto melhor o briefing (produto, público e objetivo), melhor o resultado.\n\nSalve e teste hoje. Próximo tutorial em uma hora.\n\n#claudecode #frontend #webdesign #inteligenciaartificial #ia"
+  "caption": "Quando você pede uma página para o Claude sem orientação, o resultado costuma ter fonte padrão e layout que se repete. A skill de Frontend Design faz o Claude pensar em direção visual antes de escrever código.\n\nDica que muda o resultado: escreva o briefing com produto, público e a sensação que você quer passar. Nos slides estão a instalação, um pedido para testar e os prós e contras.\n\nSe você já pediu uma página para a IA e achou tudo parecido, conta qual foi o pedido nos comentários. Quem estiver na mesma situação pode aproveitar a resposta.\n\n#claudecode #frontend #webdesign #inteligenciaartificial #ia"
  },
  {
   "n": "03",
@@ -45,7 +45,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide7.jpg"
   ],
-  "caption": "Tutorial 03 da série de skills: Impeccable.\n\nSabe quando você pede para a IA “deixar mais bonito” e nada muda? O Impeccable resolve com comandos específicos: critique, polish, bolder, audit. Cada um carrega um roteiro de design para um alvo só.\n\nAlém disso, ele tem um detector com 62 regras que encontra os vícios clássicos de interface gerada por IA.\n\nInstalação, comandos, pedido de teste e prós e contras no carrossel.\n\nSalve para usar no próximo layout.\n\n#claudecode #uidesign #ux #inteligenciaartificial #ia"
+  "caption": "\"Deixa mais bonito\" é um pedido que a IA não consegue medir, e por isso muitas vezes nada muda. O Impeccable troca esse pedido vago por comandos com alvo definido: critique, polish, bolder, audit. Cada um carrega um roteiro de design para uma coisa só.\n\nEle também tem um detector que aponta padrões típicos de interface feita com IA. Se você revisa layouts com frequência, vale testar no próximo.\n\nQual comando você usaria primeiro? Responde nos comentários.\n\n#claudecode #uidesign #ux #inteligenciaartificial #ia"
  },
  {
   "n": "04",
@@ -61,7 +61,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide7.jpg"
   ],
-  "caption": "Tutorial 04 da série de skills: UI UX Pro Max.\n\nEm vez de escolher cores e fontes no chute, o Claude consulta 80 estilos de interface e 192 regras por setor. Um dashboard de clínica e um app de fintech recebem decisões de design diferentes, como deve ser.\n\nNo carrossel: instalação pelo Claude Code ou pela linha de comando, como usar, pedido de teste e prós e contras.\n\nSalve e compartilhe com quem faz interface.\n\n#claudecode #designsystem #uidesign #inteligenciaartificial #ia"
+  "caption": "Escolher cor e fonte no chute é o motivo de muita interface sem identidade. O UI UX Pro Max faz o Claude consultar uma base de estilos e regras por setor antes de decidir. Uma clínica e uma fintech recebem decisões diferentes, e é isso que se espera.\n\nNos slides: instalação, uso, um pedido para testar e o que observar no resultado.\n\nSe você trabalha com interface, manda para quem ainda decide cor pelo feeling.\n\n#claudecode #designsystem #uidesign #inteligenciaartificial #ia"
  },
  {
   "n": "05",
@@ -77,7 +77,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide7.jpg"
   ],
-  "caption": "Tutorial 05 da série de skills: React Best Practices.\n\nA própria Vercel, empresa por trás do Next.js, organizou 70 regras de performance em 8 categorias, da mais crítica para a menos. Com a skill instalada, o Claude aplica essas regras quando escreve ou revisa seu código.\n\nNo carrossel: instalação em um comando, o que ela corrige, pedido de teste e prós e contras.\n\nSalve para a próxima revisão de código.\n\n#claudecode #react #nextjs #javascript #ia"
+  "caption": "Código que funciona nem sempre é código rápido. A Vercel, criadora do Next.js, reuniu as práticas de performance que aplica nos próprios projetos e as organizou da mais crítica para a menos crítica. Com a skill instalada, o Claude considera essas regras ao escrever ou revisar código.\n\nDentro do carrossel: instalação em um comando, o que ela corrige e um pedido para testar.\n\nQual regra de performance você sempre esquece na revisão? Responde aqui.\n\n#claudecode #react #nextjs #javascript #ia"
  },
  {
   "n": "06",
@@ -93,7 +93,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide7.jpg"
   ],
-  "caption": "Tutorial 06 da série de skills: Web Design Guidelines.\n\nAcessibilidade costuma ser a primeira coisa esquecida e a primeira cobrada pelo cliente. Esta skill da Vercel audita sua interface em mais de 100 regras e devolve cada problema com arquivo e linha.\n\nNo carrossel: instalação, como funciona, pedido de teste e prós e contras.\n\nSalve e rode antes da próxima entrega.\n\n#claudecode #acessibilidade #ux #webdesign #ia"
+  "caption": "Acessibilidade costuma ficar para o fim e, quase sempre, é a primeira coisa que o cliente cobra. Esta skill da Vercel audita a interface contra um conjunto de diretrizes e devolve cada problema com arquivo e linha.\n\nVocê encontra instalação, funcionamento, um pedido para testar e prós e contras no carrossel.\n\nRode antes da próxima entrega e conta nos comentários o que ela achou no seu projeto.\n\n#claudecode #acessibilidade #ux #webdesign #ia"
  },
  {
   "n": "07",
@@ -109,7 +109,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide7.jpg"
   ],
-  "caption": "Tutorial 07 da série de skills: Static Analysis.\n\nA Trail of Bits audita sistemas de grandes empresas e transformou sua metodologia em skills. Com ela, o Claude roda CodeQL e Semgrep no seu projeto e entrega as vulnerabilidades organizadas por gravidade.\n\nSe você entrega sistema para cliente, essa revisão deveria fazer parte do processo.\n\nInstalação, comandos, pedido de teste e prós e contras no carrossel.\n\n#claudecode #segurancadainformacao #cybersecurity #devsecops #ia"
+  "caption": "Se você entrega sistema para cliente, a pergunta não é se existe falha de segurança, e sim onde ela está. A Trail of Bits, firma de auditoria de segurança, transformou a própria metodologia em skills. Com ela, o Claude roda CodeQL e Semgrep no projeto e organiza as vulnerabilidades por gravidade.\n\nQuem entrega software a terceiros deveria incluir essa revisão no processo.\n\nJá passou por uma auditoria? Conta nos comentários o que mais te surpreendeu.\n\n#claudecode #segurancadainformacao #cybersecurity #devsecops #ia"
  },
  {
   "n": "08",
@@ -125,7 +125,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide7.jpg"
   ],
-  "caption": "Tutorial 08 da série de skills: Webapp Testing.\n\nQuantas vezes um formulário quebrou depois da entrega? Com esta skill oficial da Anthropic, o Claude abre sua aplicação no navegador, executa o fluxo inteiro e devolve prints de cada etapa.\n\nNo carrossel: instalação, como funciona, pedido de teste e prós e contras.\n\nSalve e teste antes da próxima entrega.\n\n#claudecode #testes #qa #playwright #ia"
+  "caption": "Formulário que funcionava na sexta e quebrou na segunda é um problema que quase todo dev já viveu. Esta skill faz o Claude abrir a aplicação no navegador, percorrer o fluxo inteiro e devolver um print de cada etapa.\n\nNos slides: instalação, como funciona, um pedido de teste e os prós e contras.\n\nQual é o fluxo mais crítico do seu sistema que ainda não tem teste? Conta nos comentários.\n\n#claudecode #testes #qa #playwright #ia"
  },
  {
   "n": "09",
@@ -141,7 +141,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide7.jpg"
   ],
-  "caption": "Tutorial 09 da série de skills: Remotion.\n\nE se o seu próximo Reel fosse escrito, e não editado? O Remotion transforma vídeo em código React, e as skills oficiais ensinam o Claude a criar, pré-visualizar e renderizar tudo por comando.\n\nUm modelo bem feito vira dezenas de vídeos com textos diferentes.\n\nInstalação, comandos, pedido de teste e prós e contras no carrossel.\n\n#claudecode #remotion #motiondesign #react #ia"
+  "caption": "E se o próximo Reel fosse escrito em código, e não montado no editor? O Remotion transforma vídeo em componentes React, e as skills ensinam o Claude a criar, pré-visualizar e renderizar tudo por comando.\n\nUm modelo bem feito vira vários vídeos com textos diferentes, o que ajuda quem publica com frequência. Instalação, comandos, um pedido para testar e prós e contras estão no carrossel.\n\nQuem já edita vídeo para redes, qual etapa mais consome tempo?\n\n#claudecode #remotion #motiondesign #react #ia"
  },
  {
   "n": "10",
@@ -157,7 +157,7 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide7.jpg"
   ],
-  "caption": "Tutorial 10 da série de skills: MCP Builder.\n\nMCP é o que permite ao Claude agir dentro de outros sistemas: consultar pedidos, criar tarefas, atualizar cadastros. Esta skill oficial da Anthropic guia a criação de um servidor MCP em quatro fases, da pesquisa da API à avaliação final.\n\nÉ assim que a IA deixa de só responder e passa a operar o seu negócio.\n\nInstalação, fases, pedido de teste e prós e contras no carrossel.\n\n#claudecode #mcp #api #automacao #ia"
+  "caption": "A IA só passa a fazer parte da operação quando consegue agir dentro dos sistemas da empresa: consultar pedidos, criar tarefas, atualizar cadastros. MCP é o padrão que faz essa conexão. Esta skill guia a criação de um servidor MCP em quatro fases, da leitura da API até a avaliação final.\n\nNos slides: instalação, as fases, um pedido para testar e prós e contras.\n\nSe você tem um sistema interno que queria conectar à IA, conta qual é nos comentários.\n\n#claudecode #mcp #api #automacao #ia"
  },
  {
   "n": "11",
@@ -173,6 +173,6 @@
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide6.jpg",
    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide7.jpg"
   ],
-  "caption": "Tutorial 11, o último da série: Skill Creator.\n\nDepois de conhecer as melhores skills, o próximo passo é criar as suas. A Skill Creator, da Anthropic, entrevista você, escreve a skill, testa e mostra a diferença com e sem ela.\n\nAqui na XARPY é assim que transformamos processos internos em padrão: o que funciona vira skill.\n\nInstalação, etapas, pedido de teste e prós e contras no carrossel.\n\nSalve a série completa e conte nos comentários qual skill você quer ver a seguir.\n\n#claudecode #skills #automacao #inteligenciaartificial #ia"
+  "caption": "Depois de conhecer as melhores skills, o passo seguinte é criar as suas. A Skill Creator faz perguntas sobre o seu processo, escreve a skill, testa e compara o resultado com e sem ela. Assim uma tarefa repetida vira padrão para qualquer pessoa do time.\n\nNos slides: instalação, etapas, um pedido para testar e prós e contras.\n\nEsta é a última da série. Qual skill você gostaria de ver explicada com o mesmo nível de detalhe? Responde nos comentários.\n\n#claudecode #skills #automacao #inteligenciaartificial #ia"
  }
 ]
