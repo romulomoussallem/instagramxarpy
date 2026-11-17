@@ -1,0 +1,9 @@
+Tutorial 04 da série de skills: UI UX Pro Max.
+
+Em vez de escolher cores e fontes no chute, o Claude consulta 80 estilos de interface e 192 regras por setor. Um dashboard de clínica e um app de fintech recebem decisões de design diferentes, como deve ser.
+
+No carrossel: instalação pelo Claude Code ou pela linha de comando, como usar, pedido de teste e prós e contras.
+
+Salve e compartilhe com quem faz interface.
+
+#claudecode #designsystem #uidesign #inteligenciaartificial #ia

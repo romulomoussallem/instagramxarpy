@@ -1,0 +1,9 @@
+Tutorial 07 da série de skills: Static Analysis.
+
+A Trail of Bits audita sistemas de grandes empresas e transformou sua metodologia em skills. Com ela, o Claude roda CodeQL e Semgrep no seu projeto e entrega as vulnerabilidades organizadas por gravidade.
+
+Se você entrega sistema para cliente, essa revisão deveria fazer parte do processo.
+
+Instalação, comandos, pedido de teste e prós e contras no carrossel.
+
+#claudecode #segurancadainformacao #cybersecurity #devsecops #ia

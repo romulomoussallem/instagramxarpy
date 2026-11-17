@@ -1,0 +1,178 @@
+[
+ {
+  "n": "01",
+  "skill": "Superpowers",
+  "hour_sao_paulo": 2,
+  "marker": "Tutorial 01",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/01-superpowers/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/01-superpowers/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/01-superpowers/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/01-superpowers/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/01-superpowers/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/01-superpowers/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/01-superpowers/slide7.jpg"
+  ],
+  "caption": "Tutorial 01 da série de skills: Superpowers.\n\nÉ a skill que mais muda a forma como o Claude Code trabalha. Em vez de sair escrevendo código, ele segue um método: entende o pedido, escreve o plano, desenvolve com testes e revisa antes de entregar.\n\nNo carrossel:\n· o que é e quem criou\n· os comandos de instalação\n· o fluxo de trabalho, etapa por etapa\n· um pedido pronto para testar\n· prós e contras honestos\n\nSalve para instalar no seu próximo projeto. O próximo tutorial sai em uma hora.\n\n#claudecode #inteligenciaartificial #programacao #ia #desenvolvimento"
+ },
+ {
+  "n": "02",
+  "skill": "Frontend Design",
+  "hour_sao_paulo": 3,
+  "marker": "Tutorial 02",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/02-frontend-design/slide7.jpg"
+  ],
+  "caption": "Tutorial 02 da série de skills: Frontend Design.\n\nA skill oficial da Anthropic para resolver o maior problema das interfaces feitas com IA: todas parecem iguais. Com ela, o Claude pensa como diretor de design antes de escrever o código.\n\nNo carrossel você encontra a instalação, como usar, um pedido pronto para testar e os prós e contras.\n\nDica: quanto melhor o briefing (produto, público e objetivo), melhor o resultado.\n\nSalve e teste hoje. Próximo tutorial em uma hora.\n\n#claudecode #frontend #webdesign #inteligenciaartificial #ia"
+ },
+ {
+  "n": "03",
+  "skill": "Impeccable",
+  "hour_sao_paulo": 4,
+  "marker": "Tutorial 03",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/03-impeccable/slide7.jpg"
+  ],
+  "caption": "Tutorial 03 da série de skills: Impeccable.\n\nSabe quando você pede para a IA “deixar mais bonito” e nada muda? O Impeccable resolve com comandos específicos: critique, polish, bolder, audit. Cada um carrega um roteiro de design para um alvo só.\n\nAlém disso, ele tem um detector com 62 regras que encontra os vícios clássicos de interface gerada por IA.\n\nInstalação, comandos, pedido de teste e prós e contras no carrossel.\n\nSalve para usar no próximo layout.\n\n#claudecode #uidesign #ux #inteligenciaartificial #ia"
+ },
+ {
+  "n": "04",
+  "skill": "UI UX Pro Max",
+  "hour_sao_paulo": 5,
+  "marker": "Tutorial 04",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/04-ui-ux-pro-max/slide7.jpg"
+  ],
+  "caption": "Tutorial 04 da série de skills: UI UX Pro Max.\n\nEm vez de escolher cores e fontes no chute, o Claude consulta 80 estilos de interface e 192 regras por setor. Um dashboard de clínica e um app de fintech recebem decisões de design diferentes, como deve ser.\n\nNo carrossel: instalação pelo Claude Code ou pela linha de comando, como usar, pedido de teste e prós e contras.\n\nSalve e compartilhe com quem faz interface.\n\n#claudecode #designsystem #uidesign #inteligenciaartificial #ia"
+ },
+ {
+  "n": "05",
+  "skill": "React Best Practices",
+  "hour_sao_paulo": 6,
+  "marker": "Tutorial 05",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/05-react-best-practices/slide7.jpg"
+  ],
+  "caption": "Tutorial 05 da série de skills: React Best Practices.\n\nA própria Vercel, empresa por trás do Next.js, organizou 70 regras de performance em 8 categorias, da mais crítica para a menos. Com a skill instalada, o Claude aplica essas regras quando escreve ou revisa seu código.\n\nNo carrossel: instalação em um comando, o que ela corrige, pedido de teste e prós e contras.\n\nSalve para a próxima revisão de código.\n\n#claudecode #react #nextjs #javascript #ia"
+ },
+ {
+  "n": "06",
+  "skill": "Web Design Guidelines",
+  "hour_sao_paulo": 7,
+  "marker": "Tutorial 06",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/06-web-design-guidelines/slide7.jpg"
+  ],
+  "caption": "Tutorial 06 da série de skills: Web Design Guidelines.\n\nAcessibilidade costuma ser a primeira coisa esquecida e a primeira cobrada pelo cliente. Esta skill da Vercel audita sua interface em mais de 100 regras e devolve cada problema com arquivo e linha.\n\nNo carrossel: instalação, como funciona, pedido de teste e prós e contras.\n\nSalve e rode antes da próxima entrega.\n\n#claudecode #acessibilidade #ux #webdesign #ia"
+ },
+ {
+  "n": "07",
+  "skill": "Static Analysis",
+  "hour_sao_paulo": 8,
+  "marker": "Tutorial 07",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/07-static-analysis/slide7.jpg"
+  ],
+  "caption": "Tutorial 07 da série de skills: Static Analysis.\n\nA Trail of Bits audita sistemas de grandes empresas e transformou sua metodologia em skills. Com ela, o Claude roda CodeQL e Semgrep no seu projeto e entrega as vulnerabilidades organizadas por gravidade.\n\nSe você entrega sistema para cliente, essa revisão deveria fazer parte do processo.\n\nInstalação, comandos, pedido de teste e prós e contras no carrossel.\n\n#claudecode #segurancadainformacao #cybersecurity #devsecops #ia"
+ },
+ {
+  "n": "08",
+  "skill": "Webapp Testing",
+  "hour_sao_paulo": 9,
+  "marker": "Tutorial 08",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/08-webapp-testing/slide7.jpg"
+  ],
+  "caption": "Tutorial 08 da série de skills: Webapp Testing.\n\nQuantas vezes um formulário quebrou depois da entrega? Com esta skill oficial da Anthropic, o Claude abre sua aplicação no navegador, executa o fluxo inteiro e devolve prints de cada etapa.\n\nNo carrossel: instalação, como funciona, pedido de teste e prós e contras.\n\nSalve e teste antes da próxima entrega.\n\n#claudecode #testes #qa #playwright #ia"
+ },
+ {
+  "n": "09",
+  "skill": "Remotion",
+  "hour_sao_paulo": 10,
+  "marker": "Tutorial 09",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/09-remotion/slide7.jpg"
+  ],
+  "caption": "Tutorial 09 da série de skills: Remotion.\n\nE se o seu próximo Reel fosse escrito, e não editado? O Remotion transforma vídeo em código React, e as skills oficiais ensinam o Claude a criar, pré-visualizar e renderizar tudo por comando.\n\nUm modelo bem feito vira dezenas de vídeos com textos diferentes.\n\nInstalação, comandos, pedido de teste e prós e contras no carrossel.\n\n#claudecode #remotion #motiondesign #react #ia"
+ },
+ {
+  "n": "10",
+  "skill": "MCP Builder",
+  "hour_sao_paulo": 11,
+  "marker": "Tutorial 10",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/10-mcp-builder/slide7.jpg"
+  ],
+  "caption": "Tutorial 10 da série de skills: MCP Builder.\n\nMCP é o que permite ao Claude agir dentro de outros sistemas: consultar pedidos, criar tarefas, atualizar cadastros. Esta skill oficial da Anthropic guia a criação de um servidor MCP em quatro fases, da pesquisa da API à avaliação final.\n\nÉ assim que a IA deixa de só responder e passa a operar o seu negócio.\n\nInstalação, fases, pedido de teste e prós e contras no carrossel.\n\n#claudecode #mcp #api #automacao #ia"
+ },
+ {
+  "n": "11",
+  "skill": "Skill Creator",
+  "hour_sao_paulo": 12,
+  "marker": "Tutorial 11",
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/11-skill-creator/slide7.jpg"
+  ],
+  "caption": "Tutorial 11, o último da série: Skill Creator.\n\nDepois de conhecer as melhores skills, o próximo passo é criar as suas. A Skill Creator, da Anthropic, entrevista você, escreve a skill, testa e mostra a diferença com e sem ela.\n\nAqui na XARPY é assim que transformamos processos internos em padrão: o que funciona vira skill.\n\nInstalação, etapas, pedido de teste e prós e contras no carrossel.\n\nSalve a série completa e conte nos comentários qual skill você quer ver a seguir.\n\n#claudecode #skills #automacao #inteligenciaartificial #ia"
+ }
+]

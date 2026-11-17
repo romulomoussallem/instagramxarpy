@@ -1,0 +1,14 @@
+Tutorial 01 da série de skills: Superpowers.
+
+É a skill que mais muda a forma como o Claude Code trabalha. Em vez de sair escrevendo código, ele segue um método: entende o pedido, escreve o plano, desenvolve com testes e revisa antes de entregar.
+
+No carrossel:
+· o que é e quem criou
+· os comandos de instalação
+· o fluxo de trabalho, etapa por etapa
+· um pedido pronto para testar
+· prós e contras honestos
+
+Salve para instalar no seu próximo projeto. O próximo tutorial sai em uma hora.
+
+#claudecode #inteligenciaartificial #programacao #ia #desenvolvimento

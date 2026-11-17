@@ -1,0 +1,9 @@
+Tutorial 05 da série de skills: React Best Practices.
+
+A própria Vercel, empresa por trás do Next.js, organizou 70 regras de performance em 8 categorias, da mais crítica para a menos. Com a skill instalada, o Claude aplica essas regras quando escreve ou revisa seu código.
+
+No carrossel: instalação em um comando, o que ela corrige, pedido de teste e prós e contras.
+
+Salve para a próxima revisão de código.
+
+#claudecode #react #nextjs #javascript #ia

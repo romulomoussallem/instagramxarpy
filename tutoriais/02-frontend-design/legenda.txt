@@ -1,0 +1,11 @@
+Tutorial 02 da série de skills: Frontend Design.
+
+A skill oficial da Anthropic para resolver o maior problema das interfaces feitas com IA: todas parecem iguais. Com ela, o Claude pensa como diretor de design antes de escrever o código.
+
+No carrossel você encontra a instalação, como usar, um pedido pronto para testar e os prós e contras.
+
+Dica: quanto melhor o briefing (produto, público e objetivo), melhor o resultado.
+
+Salve e teste hoje. Próximo tutorial em uma hora.
+
+#claudecode #frontend #webdesign #inteligenciaartificial #ia

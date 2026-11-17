@@ -1,0 +1,9 @@
+Tutorial 10 da série de skills: MCP Builder.
+
+MCP é o que permite ao Claude agir dentro de outros sistemas: consultar pedidos, criar tarefas, atualizar cadastros. Esta skill oficial da Anthropic guia a criação de um servidor MCP em quatro fases, da pesquisa da API à avaliação final.
+
+É assim que a IA deixa de só responder e passa a operar o seu negócio.
+
+Instalação, fases, pedido de teste e prós e contras no carrossel.
+
+#claudecode #mcp #api #automacao #ia

@@ -1,0 +1,11 @@
+Tutorial 03 da série de skills: Impeccable.
+
+Sabe quando você pede para a IA “deixar mais bonito” e nada muda? O Impeccable resolve com comandos específicos: critique, polish, bolder, audit. Cada um carrega um roteiro de design para um alvo só.
+
+Além disso, ele tem um detector com 62 regras que encontra os vícios clássicos de interface gerada por IA.
+
+Instalação, comandos, pedido de teste e prós e contras no carrossel.
+
+Salve para usar no próximo layout.
+
+#claudecode #uidesign #ux #inteligenciaartificial #ia

@@ -1,0 +1,9 @@
+Tutorial 08 da série de skills: Webapp Testing.
+
+Quantas vezes um formulário quebrou depois da entrega? Com esta skill oficial da Anthropic, o Claude abre sua aplicação no navegador, executa o fluxo inteiro e devolve prints de cada etapa.
+
+No carrossel: instalação, como funciona, pedido de teste e prós e contras.
+
+Salve e teste antes da próxima entrega.
+
+#claudecode #testes #qa #playwright #ia

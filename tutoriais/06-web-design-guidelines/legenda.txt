@@ -1,0 +1,9 @@
+Tutorial 06 da série de skills: Web Design Guidelines.
+
+Acessibilidade costuma ser a primeira coisa esquecida e a primeira cobrada pelo cliente. Esta skill da Vercel audita sua interface em mais de 100 regras e devolve cada problema com arquivo e linha.
+
+No carrossel: instalação, como funciona, pedido de teste e prós e contras.
+
+Salve e rode antes da próxima entrega.
+
+#claudecode #acessibilidade #ux #webdesign #ia

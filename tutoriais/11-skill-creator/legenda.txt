@@ -1,0 +1,11 @@
+Tutorial 11, o último da série: Skill Creator.
+
+Depois de conhecer as melhores skills, o próximo passo é criar as suas. A Skill Creator, da Anthropic, entrevista você, escreve a skill, testa e mostra a diferença com e sem ela.
+
+Aqui na XARPY é assim que transformamos processos internos em padrão: o que funciona vira skill.
+
+Instalação, etapas, pedido de teste e prós e contras no carrossel.
+
+Salve a série completa e conte nos comentários qual skill você quer ver a seguir.
+
+#claudecode #skills #automacao #inteligenciaartificial #ia

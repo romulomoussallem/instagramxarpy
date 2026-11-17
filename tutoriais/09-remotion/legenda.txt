@@ -1,0 +1,9 @@
+Tutorial 09 da série de skills: Remotion.
+
+E se o seu próximo Reel fosse escrito, e não editado? O Remotion transforma vídeo em código React, e as skills oficiais ensinam o Claude a criar, pré-visualizar e renderizar tudo por comando.
+
+Um modelo bem feito vira dezenas de vídeos com textos diferentes.
+
+Instalação, comandos, pedido de teste e prós e contras no carrossel.
+
+#claudecode #remotion #motiondesign #react #ia
