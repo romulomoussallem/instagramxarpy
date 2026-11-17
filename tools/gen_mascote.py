@@ -15,7 +15,8 @@ body{{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:I
 .ico{{position:absolute;right:80px;top:70px;width:84px;height:84px}}
 h1{{position:absolute;left:80px;top:200px;font:800 92px/1.02 JB;letter-spacing:-3px}}
 .hl{{display:inline-block;padding:0 14px;margin:8px 0 0 -14px;line-height:1.05}}
-p{{position:absolute;left:80px;top:640px;width:470px;font:500 38px/1.3 IT}}
+p{{position:absolute;left:80px;top:640px;font:500 38px/1.3 IT}}
+.li{{display:block;margin-bottom:18px}} .li b{{font-family:JB;font-weight:800}}
 .char{{position:absolute;right:-30px;bottom:-60px;height:930px}}
 .char.big{{bottom:-130px;height:880px}}
 .foot{{position:absolute;left:80px;bottom:64px;display:flex;align-items:center;gap:14px;font:700 28px JB}}
@@ -29,7 +30,7 @@ for i, s in enumerate(spec, 1):
 body{{background:{s['bg']};color:{s['fg']}}} .tag{{color:{s['acc']}}} .hl{{background:{s['fg']};color:{s['bg']}}}
 .bar{{background:{s['acc']};width:{int(1080*i/n)}px}}</style></head><body>
 <div class=tag>{s['tag']}</div><img class=ico src='file://{R}/marca/icone.png'>
-<h1>{s['title']}</h1><p>{s['body']}</p>
+<h1>{s['title']}</h1><p style='width:{s.get("w",470)}px;font-size:{s.get("fs",38)}px'>{s['body']}</p>
 <img class='char {big}' src='file://{R}/marca/mascote/{s['img']}.png'>
 <div class=foot><img src='file://{R}/marca/icone.png'>@xarpy_dev</div><div class=bar></div></body></html>"""
     h = f"{out}/s{i}.html"; open(h, "w").write(html)
