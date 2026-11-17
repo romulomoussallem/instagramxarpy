@@ -1,0 +1,13 @@
+Análise de Design 05: o hero da Tronix-5.
+
+Preto, cromado e um único foco de luz. Esse hero de robótica mostra que, quando o produto é bonito, o melhor design é tirar tudo que compete com ele.
+
+No carrossel: anamnese, design system, anatomia do hero e os 4 motivos que fazem esse layout funcionar.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Pixel Pros, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #robotica #inteligenciaartificial #designsystem

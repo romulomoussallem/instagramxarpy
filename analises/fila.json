@@ -80,6 +80,38 @@
     "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/04-agentflow/slide7.jpg"
    ],
    "caption": "Análise de Design 04: o site da AgentFlow.\n\nUma plataforma de agentes de IA que trocou o neon azul pelo dourado, misturou serifa itálica com sans-serif e mostrou o produto de verdade em um bento grid. O resultado parece caro sem exagero.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse site se destacar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Design Monks, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #agentesdeia #inteligenciaartificial #designsystem"
+  },
+  {
+   "n": "05",
+   "slot": "05:15",
+   "marker": "Análise de Design 05",
+   "folder": "05-tronix",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/05-tronix/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/05-tronix/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/05-tronix/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/05-tronix/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/05-tronix/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/05-tronix/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/05-tronix/slide7.jpg"
+   ],
+   "caption": "Análise de Design 05: o hero da Tronix-5.\n\nPreto, cromado e um único foco de luz. Esse hero de robótica mostra que, quando o produto é bonito, o melhor design é tirar tudo que compete com ele.\n\nNo carrossel: anamnese, design system, anatomia do hero e os 4 motivos que fazem esse layout funcionar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Pixel Pros, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #robotica #inteligenciaartificial #designsystem"
+  },
+  {
+   "n": "06",
+   "slot": "05:55",
+   "marker": "Análise de Design 06",
+   "folder": "06-frog",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/06-frog/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/06-frog/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/06-frog/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/06-frog/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/06-frog/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/06-frog/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/06-frog/slide7.jpg"
+   ],
+   "caption": "Análise de Design 06: o site da Frog.\n\nUm agente de IA que usa um sapo como mascote, e funciona. O personagem tira o medo da tecnologia, o campo de pergunta mostra o produto logo no hero e o título em dois tons cria ritmo.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos por trás do resultado.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Woopicx, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #mascote #inteligenciaartificial #designsystem"
   }
  ]
 }
