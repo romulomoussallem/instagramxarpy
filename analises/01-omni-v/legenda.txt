@@ -1,0 +1,16 @@
+Análise de Design 01: o site da Omni-v.
+
+Uma landing page de hardware para IA que transmite engenharia antes de você ler qualquer texto. Desmontamos o projeto para mostrar o que faz ele funcionar:
+
+· a anamnese: público, objetivo e sensação
+· o design system: paleta, tipografia e componentes
+· a anatomia da página, seção por seção
+· os 4 motivos que deixam o site com cara de produto premium
+
+No penúltimo slide tem um prompt pronto para aplicar esse padrão no seu projeto com o Claude Code.
+
+Projeto original: AI Structura | Uncommon AI Web Design, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #inteligenciaartificial #claudecode #designsystem

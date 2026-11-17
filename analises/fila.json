@@ -1,0 +1,37 @@
+{
+ "slots": [
+  "02:35",
+  "03:15",
+  "03:55",
+  "04:35",
+  "05:15",
+  "05:55",
+  "06:35",
+  "07:15",
+  "07:55",
+  "08:35",
+  "09:15",
+  "09:55",
+  "10:35",
+  "11:15",
+  "11:55"
+ ],
+ "items": [
+  {
+   "n": "01",
+   "slot": "02:35",
+   "marker": "Análise de Design 01",
+   "folder": "01-omni-v",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/01-omni-v/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/01-omni-v/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/01-omni-v/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/01-omni-v/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/01-omni-v/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/01-omni-v/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/01-omni-v/slide7.jpg"
+   ],
+   "caption": "Análise de Design 01: o site da Omni-v.\n\nUma landing page de hardware para IA que transmite engenharia antes de você ler qualquer texto. Desmontamos o projeto para mostrar o que faz ele funcionar:\n\n· a anamnese: público, objetivo e sensação\n· o design system: paleta, tipografia e componentes\n· a anatomia da página, seção por seção\n· os 4 motivos que deixam o site com cara de produto premium\n\nNo penúltimo slide tem um prompt pronto para aplicar esse padrão no seu projeto com o Claude Code.\n\nProjeto original: AI Structura | Uncommon AI Web Design, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #inteligenciaartificial #claudecode #designsystem"
+  }
+ ]
+}
