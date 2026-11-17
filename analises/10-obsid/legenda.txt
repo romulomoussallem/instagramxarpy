@@ -1,0 +1,13 @@
+Análise de Design 10: o site da Obsid.
+
+Um personagem de luz, uma frase de três palavras e um campo de pergunta. Só isso. Esse site mostra que minimalismo é deixar apenas o que leva à ação principal.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos por trás da simplicidade.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Woopicx, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #minimalismo #inteligenciaartificial #designsystem

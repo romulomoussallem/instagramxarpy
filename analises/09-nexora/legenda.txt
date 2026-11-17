@@ -1,0 +1,13 @@
+Análise de Design 09: o site da Nexora.
+
+Uma esfera de luz no hero e o painel real do produto logo na segunda dobra. Esse site responde as objeções ao lado do botão e mostra a ferramenta funcionando antes de explicar os recursos.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout converter.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Pixel the Bunny, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #saas #inteligenciaartificial #designsystem

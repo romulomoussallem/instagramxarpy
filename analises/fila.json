@@ -144,6 +144,38 @@
     "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/08-crypture/slide7.jpg"
    ],
    "caption": "Análise de Design 08: o site da Crypture.\n\nUm horizonte, um feixe de luz e títulos que vão do cinza ao branco. Esse site usa uma metáfora espacial para passar calma e confiança num mercado visto como arriscado.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Abdul Saboor, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #fintech #landingpage #designsystem"
+  },
+  {
+   "n": "09",
+   "slot": "07:55",
+   "marker": "Análise de Design 09",
+   "folder": "09-nexora",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/09-nexora/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/09-nexora/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/09-nexora/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/09-nexora/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/09-nexora/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/09-nexora/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/09-nexora/slide7.jpg"
+   ],
+   "caption": "Análise de Design 09: o site da Nexora.\n\nUma esfera de luz no hero e o painel real do produto logo na segunda dobra. Esse site responde as objeções ao lado do botão e mostra a ferramenta funcionando antes de explicar os recursos.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout converter.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Pixel the Bunny, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #saas #inteligenciaartificial #designsystem"
+  },
+  {
+   "n": "10",
+   "slot": "08:35",
+   "marker": "Análise de Design 10",
+   "folder": "10-obsid",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/10-obsid/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/10-obsid/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/10-obsid/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/10-obsid/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/10-obsid/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/10-obsid/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/10-obsid/slide7.jpg"
+   ],
+   "caption": "Análise de Design 10: o site da Obsid.\n\nUm personagem de luz, uma frase de três palavras e um campo de pergunta. Só isso. Esse site mostra que minimalismo é deixar apenas o que leva à ação principal.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos por trás da simplicidade.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Woopicx, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #minimalismo #inteligenciaartificial #designsystem"
   }
  ]
 }
