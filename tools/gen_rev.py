@@ -22,24 +22,25 @@ import os, sys, json, subprocess, html
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, "fonts"); ICON = "file://" + os.path.join(HERE, "icone.png")
 W, H, T = 1080, 1350, 7
-G = "#02DF82"; OR = "#FF6B1A"; BG = "#030F0F"; TX = "#E9EFEB"; MU = "#7f8a85"; LN = "#1d2a24"
+# Paleta "obscuro" (tools/paletas.json)
+G = "#FAFAFA"; OR = "#FF5100"; BG = "#060607"; TX = "#FAFAFA"; MU = "#77777c"; LN = "#1c1c1f"
 
 CSS = f"""
 @font-face {{ font-family:I; src:url('file://{FONTS}/InterTight.ttf'); font-weight:100 900; }}
 @font-face {{ font-family:M; src:url('file://{FONTS}/JetBrainsMono.ttf'); font-weight:100 900; }}
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{ width:{W}px; height:{H}px; background:{BG}; color:{TX}; font-family:I; position:relative; overflow:hidden;
-  background-image:radial-gradient(900px 600px at 85% 0%, rgba(255,107,26,.10), transparent 60%), radial-gradient(700px 500px at 0% 100%, rgba(2,223,130,.07), transparent 60%); }}
+  background-image:radial-gradient(900px 600px at 85% 0%, rgba(255,81,0,.14), transparent 60%), radial-gradient(700px 500px at 0% 100%, rgba(255,81,0,.05), transparent 60%); }}
 .kick {{ position:absolute; left:80px; top:84px; font-family:M; font-weight:700; font-size:24px; letter-spacing:3px; color:{MU}; }}
 .kick b {{ color:{OR}; }}
 .pg {{ position:absolute; right:80px; top:84px; font-family:M; font-size:24px; color:{MU}; }}
 .mark {{ position:absolute; right:80px; top:140px; width:78px; height:78px; }}
 .h {{ position:absolute; left:80px; right:190px; top:150px; font-family:M; font-weight:800; font-size:70px; line-height:1.1; letter-spacing:-2px; }}
-.hl {{ display:inline-block; background:{G}; color:{BG}; padding:2px 16px 6px; margin:4px 0; }}
+.hl {{ display:inline-block; background:{OR}; color:{BG}; padding:2px 16px 6px; margin:4px 0; }}
 .ho {{ color:{OR}; }}
 .p {{ font-size:36px; line-height:1.38; font-weight:500; color:#cfd6d2; }}
 .cd {{ background:#000; border:2px solid {LN}; border-radius:18px; padding:30px 34px; font-family:M; font-size:25px; line-height:1.6; color:#cfd6d2; overflow-wrap:anywhere; }}
-.cd .t {{ color:{OR}; font-weight:800; }} .cd .c {{ color:#4f5a55; }} .cd mark {{ background:rgba(255,107,26,.18); color:{OR}; padding:0 4px; }}
+.cd .t {{ color:{OR}; font-weight:800; }} .cd .c {{ color:#4f5a55; }} .cd mark {{ background:rgba(255,81,0,.18); color:{OR}; padding:0 4px; }}
 .tag {{ display:inline-block; font-family:M; font-weight:800; font-size:22px; letter-spacing:2px; color:{BG}; background:{OR}; padding:6px 14px; border-radius:6px; }}
 .list > div {{ display:grid; grid-template-columns:56px 1fr; gap:18px; padding:20px 0; border-bottom:2px solid {LN}; }}
 .list > div:last-child {{ border-bottom:0; }}
@@ -55,16 +56,16 @@ body {{ width:{W}px; height:{H}px; background:{BG}; color:{TX}; font-family:I; p
 
 def evilbot(scale, left, top):
     w, h = int(330 * scale), int(300 * scale)
-    return f"""<svg style="position:absolute;left:{left}px;top:{top}px;filter:drop-shadow(0 0 40px rgba(255,107,26,.35))" width="{w}" height="{h}" viewBox="0 0 330 300">
-  <path d="M120 52 L104 6 L148 40 Z" fill="{OR}" stroke="#000" stroke-width="5"/><path d="M210 52 L226 6 L182 40 Z" fill="{OR}" stroke="#000" stroke-width="5"/>
-  <rect x="35" y="52" width="260" height="170" rx="6" fill="{G}" stroke="#000" stroke-width="7"/>
+    return f"""<svg style="position:absolute;left:{left}px;top:{top}px;filter:drop-shadow(0 0 40px rgba(255,81,0,.45))" width="{w}" height="{h}" viewBox="0 0 330 300">
+  <path d="M120 52 L104 6 L148 40 Z" fill="#000" stroke="{OR}" stroke-width="5"/><path d="M210 52 L226 6 L182 40 Z" fill="#000" stroke="{OR}" stroke-width="5"/>
+  <rect x="35" y="52" width="260" height="170" rx="6" fill="{OR}" stroke="#000" stroke-width="7"/>
   <rect x="8" y="100" width="27" height="70" fill="#000"/><rect x="295" y="100" width="27" height="70" fill="#000"/>
   <rect x="80" y="95" width="170" height="85" rx="4" fill="#000"/>
-  <path d="M98 112 L150 132" stroke="{OR}" stroke-width="9" stroke-linecap="square"/><path d="M232 112 L180 132" stroke="{OR}" stroke-width="9" stroke-linecap="square"/>
+  <path d="M98 112 L150 132" stroke="{G}" stroke-width="9" stroke-linecap="square"/><path d="M232 112 L180 132" stroke="{G}" stroke-width="9" stroke-linecap="square"/>
   <path d="M106 140 L146 146 L106 156 Z" fill="{OR}"/><path d="M224 140 L184 146 L224 156 Z" fill="{OR}"/>
   <path d="M136 168 L150 162 L165 168 L180 162 L194 168" stroke="{G}" stroke-width="6" fill="none"/>
-  <rect x="75" y="222" width="34" height="62" fill="#000" stroke="{G}" stroke-width="3"/><rect x="221" y="222" width="34" height="62" fill="#000" stroke="{G}" stroke-width="3"/>
-  <rect x="140" y="222" width="50" height="40" fill="#000" stroke="{G}" stroke-width="3"/>
+  <rect x="75" y="222" width="34" height="62" fill="#000" stroke="{OR}" stroke-width="3"/><rect x="221" y="222" width="34" height="62" fill="#000" stroke="{OR}" stroke-width="3"/>
+  <rect x="140" y="222" width="50" height="40" fill="#000" stroke="{OR}" stroke-width="3"/>
 </svg>"""
 
 def lines(ls):

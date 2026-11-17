@@ -1,0 +1,8 @@
+{
+ "carrossel": {"uso": "Carrosséis em geral (tutoriais, listas, análises)",
+   "lime": "#92FF5F", "green": "#0F3B27", "white": "#F7F9F7", "orange": "#FF7036", "ice": "#BFF2F0", "mint": "#CFF1D2"},
+ "inovacao": {"uso": "Inovação: dicas de sistemas, trabalhos e soluções",
+   "black_pearl": "#04141E", "turquoise": "#64DBE8", "orange": "#FF6D04"},
+ "obscuro": {"uso": "Conteúdo obscuro, segurança cibernética, engenharia reversa, conteúdo premium/exclusivo",
+   "black": "#060607", "orange": "#FF5100", "white": "#FAFAFA"}
+}
