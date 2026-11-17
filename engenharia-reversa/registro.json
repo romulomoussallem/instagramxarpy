@@ -1,0 +1,13 @@
+{
+ "itens": [
+  {
+   "n": "01",
+   "pasta": "01-extract-wisdom",
+   "repo": "danielmiessler/fabric",
+   "arquivo": "data/patterns/extract_wisdom/system.md",
+   "licenca": "MIT",
+   "status": "pronto",
+   "media_id": null
+  }
+ ]
+}

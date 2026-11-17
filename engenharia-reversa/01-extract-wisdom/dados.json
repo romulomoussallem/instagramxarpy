@@ -1,0 +1,84 @@
+{
+ "n": "01",
+ "cover": "Desmontamos<br>um prompt<br><span class=\"hl\">profissional</span><br>do GitHub.",
+ "cover_sub": "Peça por peça. E no final você leva o <span class=\"ho\">esqueleto</span> para usar nos seus.",
+ "name": "extract_wisdom",
+ "desc": "do projeto Fabric, tira ideias, citações e lições de qualquer texto, vídeo ou podcast.",
+ "original": [
+  "# IDENTITY and PURPOSE",
+  "You extract surprising, insightful, and interesting information…",
+  "",
+  "# STEPS",
+  "- Extract a summary of the content in 25 words…",
+  "- Extract 20 to 50 of the most surprising… ideas…",
+  "(+ 7 passos)",
+  "",
+  "# OUTPUT INSTRUCTIONS",
+  "- Write the IDEAS bullets as exactly 16 words.",
+  "(+ 11 regras)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Identidade<br>e propósito",
+   "code": "You extract <mark>surprising, insightful, and interesting</mark> information… You are interested in <mark>purpose and meaning of life… technology… AI… learning</mark>…",
+   "bullets": [
+    [
+     "Diz o que fazer",
+     "e com qual critério: surpreendente, útil, interessante."
+    ],
+    [
+     "Lista os temas de interesse.",
+     "Isso funciona como filtro do que importa."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Passos com<br><span class=\"ho\">números</span>",
+   "code": "- Extract <mark>20 to 50</mark> ideas… in a section called IDEAS<br>- Extract <mark>10 to 20</mark> insights… more refined, more abstracted<br>- Extract the most potent takeaway… <mark>15-word</mark> sentence",
+   "bullets": [
+    [
+     "Quantidades exatas",
+     "acabam com a resposta preguiçosa de 3 itens."
+    ],
+    [
+     "Cada passo vira uma seção",
+     "com nome fixo. A saída fica previsível."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "Regras de<br>formato",
+   "code": "- Write the IDEAS bullets as <mark>exactly 16 words</mark>.<br>- <mark>Do not repeat</mark> ideas, insights, quotes…<br>- <mark>Do not start items with the same opening words</mark>.<br>- Do not give warnings or notes.",
+   "bullets": [
+    [
+     "Tamanho fixo",
+     "obriga a IA a condensar a ideia."
+    ],
+    [
+     "Proibições específicas",
+     "cortam os vícios: repetição e aviso desnecessário."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# IDENTIDADE E PROPÓSITO",
+  "Você é [papel]. Seu critério é [o que importa].",
+  "",
+  "# PASSOS",
+  "- Faça [tarefa 1] em [quantidade] numa seção [NOME]",
+  "- Faça [tarefa 2] a partir da anterior",
+  "",
+  "# FORMATO DA SAÍDA",
+  "- Cada item com exatamente [N] palavras",
+  "- Não repita itens. Não dê avisos.",
+  "",
+  "# ENTRADA",
+  "[cole aqui o texto]"
+ ],
+ "cta": "Salve e<br>pare de pedir<br>“<span class=\"ho\">faz um resumo</span>”.",
+ "source": "Fonte: danielmiessler/fabric · padrão extract_wisdom · licença MIT"
+}

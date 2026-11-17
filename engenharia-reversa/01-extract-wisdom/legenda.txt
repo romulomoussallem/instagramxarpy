@@ -1,0 +1,15 @@
+Engenharia Reversa 01: o prompt extract_wisdom, do projeto Fabric.
+
+É um dos prompts mais usados do GitHub para tirar ideias, citações e lições de qualquer conteúdo. Desmontamos ele em três peças para mostrar por que funciona:
+
+· identidade e propósito com critério claro
+· passos com quantidades exatas
+· regras de formato que cortam os vícios da IA
+
+No sexto slide está o esqueleto em português, pronto para você adaptar nos seus prompts.
+
+Fonte: danielmiessler/fabric, licença MIT.
+
+Salve e comente qual prompt você quer ver desmontado no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #chatgpt #claude
