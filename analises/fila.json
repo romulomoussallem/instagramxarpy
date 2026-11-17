@@ -48,6 +48,38 @@
     "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/02-solane/slide7.jpg"
    ],
    "caption": "Análise de Design 02: o site da Solane.\n\nUm assistente pessoal de IA que vende calma em vez de tecnologia. A página usa uma cor, poucos elementos e linhas de luz que levam o olho direto ao botão.\n\nNo carrossel:\n· a anamnese do projeto\n· o design system completo\n· a anatomia da página, dobra por dobra\n· os 4 motivos que fazem esse site converter\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Abdul Saboor, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #inteligenciaartificial #landingpage #designsystem"
+  },
+  {
+   "n": "03",
+   "slot": "03:55",
+   "marker": "Análise de Design 03",
+   "folder": "03-hoonda",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/03-hoonda/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/03-hoonda/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/03-hoonda/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/03-hoonda/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/03-hoonda/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/03-hoonda/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/03-hoonda/slide7.jpg"
+   ],
+   "caption": "Análise de Design 03: o site da HoonDa.AI.\n\nUm site de robótica que parece cartaz de cinema. O robô atravessa o título, a luz vermelha marca a ação e o manifesto é escrito em dois tons para desacelerar a leitura.\n\nNo carrossel você encontra a anamnese do projeto, o design system, a anatomia da página e os 4 motivos que deixam esse layout tão forte.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: itcroc LLC, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #robotica #inteligenciaartificial #designsystem"
+  },
+  {
+   "n": "04",
+   "slot": "04:35",
+   "marker": "Análise de Design 04",
+   "folder": "04-agentflow",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/04-agentflow/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/04-agentflow/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/04-agentflow/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/04-agentflow/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/04-agentflow/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/04-agentflow/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/04-agentflow/slide7.jpg"
+   ],
+   "caption": "Análise de Design 04: o site da AgentFlow.\n\nUma plataforma de agentes de IA que trocou o neon azul pelo dourado, misturou serifa itálica com sans-serif e mostrou o produto de verdade em um bento grid. O resultado parece caro sem exagero.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse site se destacar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Design Monks, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #agentesdeia #inteligenciaartificial #designsystem"
   }
  ]
 }

@@ -1,0 +1,13 @@
+Análise de Design 03: o site da HoonDa.AI.
+
+Um site de robótica que parece cartaz de cinema. O robô atravessa o título, a luz vermelha marca a ação e o manifesto é escrito em dois tons para desacelerar a leitura.
+
+No carrossel você encontra a anamnese do projeto, o design system, a anatomia da página e os 4 motivos que deixam esse layout tão forte.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: itcroc LLC, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #robotica #inteligenciaartificial #designsystem

@@ -1,0 +1,13 @@
+Análise de Design 04: o site da AgentFlow.
+
+Uma plataforma de agentes de IA que trocou o neon azul pelo dourado, misturou serifa itálica com sans-serif e mostrou o produto de verdade em um bento grid. O resultado parece caro sem exagero.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse site se destacar.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: Design Monks, via Pinterest.
+
+Salve para usar como referência.
+
+#webdesign #uidesign #agentesdeia #inteligenciaartificial #designsystem
