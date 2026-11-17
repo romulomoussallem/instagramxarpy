@@ -8,6 +8,14 @@
    "licenca": "MIT",
    "status": "publicado",
    "media_id": "18052469966816947"
+  },
+  {
+   "n": "02",
+   "pasta": "02-atendimento-newtelco",
+   "repo": "openai/openai-cookbook",
+   "arquivo": "examples/gpt4-1_prompting_guide.ipynb (SYS_PROMPT_CUSTOMER_SERVICE)",
+   "licenca": "MIT",
+   "status": "pronto"
   }
  ]
 }

@@ -1,0 +1,15 @@
+Engenharia Reversa 02: o prompt de atendimento ao cliente do guia de GPT-4.1 da OpenAI.
+
+A própria OpenAI usa esse prompt como exemplo de agente que consulta ferramentas antes de responder. Fizemos o raio-x dele em três partes para mostrar por que ele funciona:
+
+· ferramenta antes da resposta, sem chute
+· frases modelo por situação, com regra para não repetir
+· formato com citação da fonte e um exemplo completo de conversa
+
+No sexto slide está o esqueleto em português, pronto para você adaptar no seu agente de atendimento.
+
+Fonte: openai/openai-cookbook (gpt4-1_prompting_guide), licença MIT.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #atendimento #agentesdeia

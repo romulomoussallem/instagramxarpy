@@ -1,0 +1,86 @@
+{
+ "n": "02",
+ "cover": "O prompt de<br>atendimento<br>que a <span class=\"hl\">OpenAI</span><br>usa de exemplo.",
+ "cover_sub": "Fizemos o raio-x dele. No final, o <span class=\"ho\">esqueleto</span> para o seu agente.",
+ "name": "customer_service",
+ "desc": "do guia de prompts do GPT-4.1, transforma o modelo num agente de atendimento que consulta ferramentas.",
+ "original": [
+  "You are a helpful customer service agent…",
+  "",
+  "# Instructions",
+  "- Always call a tool before answering factual questions…",
+  "(+ 9 regras)",
+  "",
+  "# Precise Response Steps",
+  "# Sample Phrases",
+  "# Output Format",
+  "# Example",
+  "(conversa completa com chamada de ferramenta)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Ferramenta<br>antes da <span class=\"ho\">resposta</span>",
+   "code": "Always <mark>call a tool before answering</mark> factual questions… Only use retrieved context and <mark>never rely on your own knowledge</mark>…<br>if you don't have enough information… <mark>ask the user</mark>",
+   "bullets": [
+    [
+     "Proíbe o chute.",
+     "Dado da empresa só sai da consulta, nunca da memória do modelo."
+    ],
+    [
+     "Prevê a falta de dado.",
+     "Sem informação para consultar, o agente pergunta antes."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Frases modelo<br>com variação",
+   "code": "## Deflecting a Prohibited Topic<br>## Before calling a tool<br>- \"Let me check that for you…\"<br>Rely on sample phrases… but <mark>never repeat a sample phrase</mark> in the same conversation.",
+   "bullets": [
+    [
+     "Frases por situação",
+     "dão o tom da marca sem engessar a conversa."
+    ],
+    [
+     "A regra de não repetir",
+     "evita o atendente robótico que fala sempre igual."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "Formato e<br>exemplo real",
+   "code": "include <mark>citations immediately after</mark> the relevant statement(s)<br>- For a single source: <mark>[NAME](ID)</mark><br># Example<br>lookup_policy_document(topic=\"family plan options\")",
+   "bullets": [
+    [
+     "Citação obrigatória",
+     "deixa cada informação rastreável até o documento."
+    ],
+    [
+     "Um exemplo completo",
+     "mostra a sequência certa: avisar, consultar, responder."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "Você é o atendente da [empresa].",
+  "",
+  "# INSTRUÇÕES",
+  "- Consulte [ferramenta] antes de qualquer dado",
+  "- Faltou informação? Pergunte ao cliente",
+  "- Não fale sobre [temas proibidos]",
+  "",
+  "# FRASES MODELO",
+  "- Antes de consultar: \"[frase]\"",
+  "",
+  "# FORMATO",
+  "- Cite a fonte assim: [NOME](ID)",
+  "",
+  "# EXEMPLO",
+  "[uma conversa completa]"
+ ],
+ "cta": "Salve e<br>pare de pedir<br>“<span class=\"ho\">seja um atendente</span>”.",
+ "source": "Fonte: openai/openai-cookbook · gpt4-1_prompting_guide · licença MIT"
+}
