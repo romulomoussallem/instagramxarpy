@@ -1,0 +1,15 @@
+Engenharia Reversa 03: o prompt de edição de código do Aider.
+
+O Aider é um assistente de programação open source que altera arquivos direto no seu projeto. Para isso funcionar, a IA precisa responder num formato que o programa consiga aplicar sozinho. Abrimos o prompt por dentro e separamos as três partes que fazem isso dar certo:
+
+· um formato de resposta descrito linha por linha
+· exemplos com a resposta ideal completa
+· regras escritas em cima dos erros mais comuns, repetidas no fim
+
+No sexto slide está o esqueleto em português, pronto para adaptar a qualquer prompt que precise de saída estruturada.
+
+Fonte: Aider-AI/aider, arquivo aider/coders/editblock_prompts.py, licença Apache-2.0.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #programacao #claude

@@ -1,0 +1,75 @@
+{
+ "n": "03",
+ "cover": "O prompt que<br>faz a IA<br><span class=\"hl\">editar código</span><br>sem quebrar.",
+ "cover_sub": "Abrimos por dentro o prompt do Aider. No final, o <span class=\"ho\">esqueleto</span> para os seus.",
+ "name": "editblock_prompts",
+ "desc": "do assistente Aider, faz a IA alterar arquivos com blocos de busca e troca que o programa aplica sozinho.",
+ "original": [
+  "# main_system",
+  "Act as an expert software developer…",
+  "If the request is ambiguous, ask questions.",
+  "(+ 3 passos numerados)",
+  "",
+  "# example_messages",
+  "(2 pedidos com a resposta ideal completa)",
+  "",
+  "# system_reminder",
+  "Every *SEARCH/REPLACE block* must use this format:",
+  "(+ 8 itens de formato e 10 regras)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Um formato<br>que a <span class=\"ho\">máquina</span> lê",
+   "code": "path/to/file.py<br><mark>&lt;&lt;&lt;&lt;&lt;&lt;&lt; SEARCH</mark><br>trecho atual<br><mark>=======</mark><br>trecho novo<br><mark>&gt;&gt;&gt;&gt;&gt;&gt;&gt; REPLACE</mark>",
+   "bullets": [
+    ["A resposta vira entrada",
+     "de um programa, não um texto para alguém copiar."],
+    ["Oito itens descrevem o bloco",
+     "linha por linha. Não sobra espaço para improviso."]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Exemplos<br>completos",
+   "code": "user: Change get_factorial() to use <mark>math.factorial</mark><br>assistant: To make this change we need to modify `mathweb/flask/app.py`…<br><mark>(3 blocos prontos)</mark>",
+   "bullets": [
+    ["Mostra a resposta inteira,",
+     "do raciocínio curto até o último bloco."],
+    ["Dois casos diferentes:",
+     "editar um arquivo e criar outro do zero."]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "Regras no<br>ponto da falha",
+   "code": "Every *SEARCH* section must <mark>*EXACTLY MATCH*</mark> the existing file content…<br>Keep *SEARCH/REPLACE* blocks <mark>concise</mark>.<br><mark>ONLY EVER RETURN CODE</mark> IN A *SEARCH/REPLACE BLOCK*!",
+   "bullets": [
+    ["Cada regra corrige um erro",
+     "comum: busca que não bate, bloco gigante, arquivo errado."],
+    ["O lembrete vai no fim",
+     "e repete o essencial antes de a IA responder."]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# PAPEL",
+  "Você é [especialista]. Se o pedido for ambíguo, pergunte.",
+  "",
+  "# PASSOS",
+  "1. Confirme o que pode alterar",
+  "2. Explique a mudança em poucas frases",
+  "3. Entregue no formato abaixo",
+  "",
+  "# FORMATO OBRIGATÓRIO",
+  "[descreva o bloco linha por linha]",
+  "",
+  "# EXEMPLOS",
+  "[pedido] → [resposta ideal completa]",
+  "",
+  "# LEMBRETE FINAL",
+  "Só responda dentro do formato."
+ ],
+ "cta": "Salve e<br>peça <span class=\"ho\">formato</span>,<br>não só resposta.",
+ "source": "Fonte: Aider-AI/aider · coders/editblock_prompts.py · licença Apache-2.0"
+}

@@ -17,6 +17,14 @@
    "licenca": "MIT",
    "status": "publicado",
    "media_id": "18086268188526668"
+  },
+  {
+   "n": "03",
+   "pasta": "03-aider-search-replace",
+   "repo": "Aider-AI/aider",
+   "arquivo": "aider/coders/editblock_prompts.py",
+   "licenca": "Apache-2.0",
+   "status": "pronto"
   }
  ]
 }
