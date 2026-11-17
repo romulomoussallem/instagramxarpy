@@ -240,6 +240,22 @@
     "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/14-nexora-red/slide7.jpg"
    ],
    "caption": "Análise de Design 14: o site da Nexora.\n\nAutomate. Innovate. Elevate. Três verbos com ponto final viram slogan, os números entram no hero e o vermelho aparece só onde precisa.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: Arpan Dubey, via Pinterest.\n\nSalve para usar como referência.\n\n#webdesign #uidesign #inteligenciaartificial #landingpage #designsystem"
+  },
+  {
+   "n": "15",
+   "slot": "11:55",
+   "marker": "Análise de Design 15",
+   "folder": "15-quantix",
+   "image_urls": [
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/15-quantix/slide1.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/15-quantix/slide2.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/15-quantix/slide3.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/15-quantix/slide4.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/15-quantix/slide5.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/15-quantix/slide6.jpg",
+    "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/analises/15-quantix/slide7.jpg"
+   ],
+   "caption": "Análise de Design 15: o site da Quantix.\n\nUm arco de luz violeta enquadra o título e leva o olho direto para o painel do produto, que aparece antes da primeira rolagem. Depois, um bento grid organiza os recursos sem cansar.\n\nNo carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.\n\nE um prompt pronto para aplicar no seu projeto com o Claude Code.\n\nProjeto original: GraphyPix, via Pinterest.\n\nEsta foi a última análise da série de hoje. Salve as 15 para consultar quando for criar seu próximo site.\n\n#webdesign #uidesign #saas #inteligenciaartificial #designsystem"
   }
  ]
 }

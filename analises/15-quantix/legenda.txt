@@ -1,0 +1,13 @@
+Análise de Design 15: o site da Quantix.
+
+Um arco de luz violeta enquadra o título e leva o olho direto para o painel do produto, que aparece antes da primeira rolagem. Depois, um bento grid organiza os recursos sem cansar.
+
+No carrossel: anamnese, design system, anatomia da página e os 4 motivos que fazem esse layout funcionar.
+
+E um prompt pronto para aplicar no seu projeto com o Claude Code.
+
+Projeto original: GraphyPix, via Pinterest.
+
+Esta foi a última análise da série de hoje. Salve as 15 para consultar quando for criar seu próximo site.
+
+#webdesign #uidesign #saas #inteligenciaartificial #designsystem
