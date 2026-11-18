@@ -14,4 +14,4 @@ Regras de escolha do prompt:
 - Complexo de verdade: várias seções, regras, exemplos ou variáveis. Evitar prompts de uma linha.
 - Trechos citados curtos, sempre com fonte.
 
-Variação visual (18/11): a capa alterna entre 4 layouts conforme o número do prompt (n mod 4): 0 título + robô à direita, 1 número gigante laranja, 2 bloco laranja sólido, 3 fundo branco. O brilho (glow) foi removido. Gerar sempre com `tools/gen_rev.py`, sem copiar o layout do post anterior.
+Variação visual (18/11): a capa segue o tema do prompt (campo opcional "tema" no dados.json; se faltar, o gerador deduz por palavras-chave): escrita = número gigante laranja, agentes = bloco laranja sólido, avaliacao = fundo branco, atendimento/seguranca/geral = layout escuro com robô à direita. Sem brilho. Gerar sempre com `tools/gen_rev.py`.

@@ -60,8 +60,23 @@ body {{ background:#FAFAFA; color:#060607; }} .kick,.pg,.src {{ color:#6b6b70; }
 .pill {{ color:#060607; border-color:#060607; }} .p {{ color:#2a2a2d; }}
 """
 
+LAYOUT_TEMA = {"escrita": 1, "agentes": 2, "avaliacao": 3, "atendimento": 0, "seguranca": 0, "geral": 0}
+TEMA_PALAVRAS = [
+    ("atendimento", ["atendimento", "customer", "cliente", "suporte", "vendas"]),
+    ("agentes", ["agente", "subagent", "supervis", "deleg", "orquestr", "multi-agent"]),
+    ("avaliacao", ["nota", "claims", "avali", "critic", "review", "julg", "checar"]),
+        ("seguranca", ["segur", "injection", "jailbreak", "guardrail", "risco"]),
+    ("escrita", ["prompt", "escrev", "extrai", "wisdom", "editar", "metaprompt", "formato"]),
+]
+def tema(d):
+    if d.get("tema") in LAYOUT_TEMA: return d["tema"]
+    txt = " ".join(str(d.get(k, "")) for k in ("name", "cover", "desc", "cover_sub")).lower()
+    for t, ws in TEMA_PALAVRAS:
+        if any(w in txt for w in ws): return t
+    return "geral"
+
 def cover(d):
-    v = int(d["n"]) % 4
+    v = LAYOUT_TEMA[tema(d)]
     sub = f'<div class="p" style="position:absolute;left:80px;right:80px;top:{{top}}px">{d["cover_sub"]}</div>'
     if v == 0:   # título à esquerda, robô à direita (layout original, sem brilho)
         return page(1, d, f'<div class="h" style="font-size:72px;top:190px">{d["cover"]}</div>'
