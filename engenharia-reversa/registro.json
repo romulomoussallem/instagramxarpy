@@ -71,6 +71,14 @@
    "licenca": "Apache-2.0",
    "status": "publicado",
    "media_id": "18195082207401697"
+  },
+  {
+   "n": "09",
+   "pasta": "09-memoria-condenser",
+   "repo": "OpenHands/software-agent-sdk",
+   "arquivo": "openhands-sdk/openhands/sdk/context/condenser/prompts/summarizing_system.j2",
+   "licenca": "MIT",
+   "status": "pronto"
   }
  ]
 }

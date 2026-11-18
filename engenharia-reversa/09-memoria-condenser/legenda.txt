@@ -1,0 +1,15 @@
+Engenharia Reversa 09: o prompt summarizing_system, do OpenHands.
+
+Quando um agente trabalha por muito tempo, o histórico não cabe mais no contexto e alguém precisa resumir. Esse prompt faz o resumo sem perder o que importa. Dissecamos o prompt em três partes:
+
+· campos fixos que separam pedido, feito e pendente
+· uma lista clara do que nunca pode ser cortado
+· um formato que muda conforme o tipo de tarefa
+
+No sexto slide está o esqueleto em português, pronto para você adaptar nos seus agentes.
+
+Fonte: OpenHands/software-agent-sdk, licença MIT.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #agentesdeia #openhands

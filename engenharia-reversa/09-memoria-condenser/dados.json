@@ -1,0 +1,87 @@
+{
+ "n": "09",
+ "tema": "geral",
+ "cover": "Conversa longa,<br>IA <span class=\"hl\">esquecida</span>.<br>Este prompt<br>resolve isso.",
+ "cover_sub": "Como um agente resume a própria memória sem perder o fio. E o <span class=\"ho\">esqueleto</span> no final.",
+ "name": "summarizing_system",
+ "desc": "do OpenHands, resume o histórico de um agente quando a conversa fica longa demais para caber no contexto.",
+ "original": [
+  "You are maintaining a context-aware state summary…",
+  "(recebe os eventos, inclusive resumos anteriores)",
+  "",
+  "# Track:",
+  "USER_CONTEXT: (Preserve essential user requirements…)",
+  "TASK_TRACKING: {… PRESERVE TASK IDs}",
+  "COMPLETED: / PENDING: / CURRENT_STATE:",
+  "(+ 5 campos só para tarefas de código)",
+  "",
+  "# PRIORITIZE / SKIP",
+  "# Example formats",
+  "(um exemplo de código, outro de haikus)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Campos<br>fixos, não<br><span class=\"ho\">texto livre</span>",
+   "code": "<mark>USER_CONTEXT:</mark> (Preserve essential user requirements…)<br><mark>COMPLETED:</mark> (Tasks completed so far…)<br><mark>PENDING:</mark> (Tasks that still need to be done)",
+   "bullets": [
+    [
+     "Cada campo responde uma pergunta.",
+     "O que o usuário quer, o que já foi feito, o que falta."
+    ],
+    [
+     "Feito e pendente separados",
+     "evitam que o agente refaça trabalho ou dê algo por concluído."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "O que não<br>pode se perder",
+   "code": "If the events… contain <mark>ANY task-tracking, you MUST</mark> include a TASK_TRACKING section…<br>…<mark>preserve exact task IDs and statuses</mark>.",
+   "bullets": [
+    [
+     "Resumir é perder detalhe.",
+     "O prompt diz quais detalhes não podem ser cortados."
+    ],
+    [
+     "IDs e status exatos",
+     "deixam o agente retomar a tarefa certa depois do resumo."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "Formato que<br>se <span class=\"ho\">adapta</span>",
+   "code": "For code-specific tasks, also include:<br><mark>CODE_STATE</mark>, <mark>TESTS</mark>, CHANGES, DEPS…<br>PRIORITIZE: 1. <mark>Adapt tracking format</mark> to match the actual task type",
+   "bullets": [
+    [
+     "Campos extras só quando fazem sentido.",
+     "Código ganha arquivos e testes; o resto fica enxuto."
+    ],
+    [
+     "Dois exemplos opostos",
+     "(bug em código e 20 haikus) mostram a regra na prática."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# PAPEL",
+  "Você mantém o resumo do estado de [tarefa].",
+  "Você recebe o histórico e o resumo anterior.",
+  "",
+  "# ACOMPANHE",
+  "PEDIDO: o que o usuário quer, em poucas linhas",
+  "FEITO: / PENDENTE: / ESTADO ATUAL:",
+  "Se for [tipo de tarefa], inclua também [campos]",
+  "",
+  "# NUNCA PERCA",
+  "[IDs, números, nomes] exatamente como estão",
+  "",
+  "# EXEMPLO",
+  "[um resumo preenchido]"
+ ],
+ "cta": "Salve e use<br>quando a conversa<br>ficar <span class=\"ho\">longa demais</span>.",
+ "source": "Fonte: OpenHands/software-agent-sdk · condenser/prompts/summarizing_system.j2 · licença MIT"
+}
