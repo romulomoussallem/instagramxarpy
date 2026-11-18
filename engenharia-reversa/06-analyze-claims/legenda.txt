@@ -1,0 +1,15 @@
+Engenharia Reversa 06: o prompt analyze_claims, do projeto Fabric.
+
+Ele pega um texto, separa cada afirmação, procura evidência a favor e contra e dá uma nota de A a F. Serve para checar proposta de fornecedor, pitch, relatório ou qualquer argumento antes de tomar decisão. Abrimos o prompt por dentro em três partes:
+
+· separa fato checável de opinião
+· exige os dois lados, com fonte real e sem inventar dado
+· usa uma escala fixa de nota, com menor, maior e média
+
+No sexto slide está o esqueleto em português, pronto para você adaptar.
+
+Fonte: danielmiessler/fabric, licença MIT.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #chatgpt #claude

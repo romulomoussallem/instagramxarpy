@@ -1,0 +1,87 @@
+{
+ "n": "06",
+ "cover": "O prompt que<br>dá <span class=\"hl\">nota de A a F</span><br>para qualquer<br>argumento.",
+ "cover_sub": "Raio-x do analyze_claims. No final, o <span class=\"ho\">esqueleto</span> para checar propostas, pitches e relatórios.",
+ "name": "analyze_claims",
+ "desc": "do projeto Fabric, separa as afirmações de um texto, busca evidência a favor e contra cada uma e dá uma nota.",
+ "original": [
+  "# IDENTITY and PURPOSE",
+  "You are an objectively minded… analyzer of truth claims…",
+  "",
+  "# Steps",
+  "- Separate the truth claims from the arguments…",
+  "",
+  "# OUTPUT INSTRUCTIONS",
+  "- ARGUMENT SUMMARY: in less than 30 words",
+  "- TRUTH CLAIMS: for each one…",
+  "(6 subseções por afirmação)",
+  "- OVERALL SCORE: / OVERALL ANALYSIS:"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Separa fato<br>de argumento",
+   "code": "- Deeply analyze the truth claims…<br>- <mark>Separate the truth claims from the arguments</mark> in your mind.",
+   "bullets": [
+    [
+     "Antes de julgar,",
+     "a IA isola o que pode ser checado do que é opinião."
+    ],
+    [
+     "Cada afirmação vira uma linha",
+     "curta, com menos de 16 palavras."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Os dois lados<br>com <span class=\"ho\">fonte</span>",
+   "code": "CLAIM SUPPORT EVIDENCE:<br>CLAIM REFUTATION EVIDENCE:<br>Provide references… <mark>DO NOT make any of those up</mark>.",
+   "bullets": [
+    [
+     "Exige prova a favor e contra.",
+     "Assim a resposta não vira defesa de um lado só."
+    ],
+    [
+     "Pede referência verificável",
+     "e proíbe inventar dado, o erro mais caro da IA."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "Escala fixa<br>de nota",
+   "code": "CLAIM RATING:<br><mark>A (Definitely True)</mark> B (High) C (Medium)<br>D (Low) <mark>F (Definitely False)</mark><br>LOWEST / HIGHEST / AVERAGE CLAIM SCORE:",
+   "bullets": [
+    [
+     "Cinco níveis com nome",
+     "deixam a nota comparável entre textos."
+    ],
+    [
+     "Fecha com menor, maior e média.",
+     "Você vê de cara onde o texto é fraco."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# PAPEL",
+  "Você analisa afirmações de forma neutra.",
+  "Separe o que é checável do que é opinião.",
+  "",
+  "# PARA CADA AFIRMAÇÃO",
+  "- AFIRMAÇÃO: [até 16 palavras]",
+  "- A FAVOR: [evidência + fonte real]",
+  "- CONTRA: [evidência + fonte real]",
+  "- NOTA: A, B, C, D ou F",
+  "",
+  "# FECHAMENTO",
+  "Menor nota, maior nota e média.",
+  "Resumo em 30 palavras. Não invente fontes.",
+  "",
+  "# ENTRADA",
+  "[cole a proposta ou o relatório]"
+ ],
+ "cta": "Salve e passe a<br>próxima proposta<br>pelo <span class=\"ho\">raio-x</span>.",
+ "source": "Fonte: danielmiessler/fabric · padrão analyze_claims · licença MIT"
+}

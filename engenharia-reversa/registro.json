@@ -44,6 +44,14 @@
    "licenca": "MIT",
    "status": "publicado",
    "media_id": "18035370875885191"
+  },
+  {
+   "n": "06",
+   "pasta": "06-analyze-claims",
+   "repo": "danielmiessler/fabric",
+   "arquivo": "data/patterns/analyze_claims/system.md",
+   "licenca": "MIT",
+   "status": "pronto"
   }
  ]
 }
