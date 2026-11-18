@@ -1,0 +1,15 @@
+Engenharia Reversa 10: o prompt DEFAULT_UPDATE_MEMORY_PROMPT, do mem0.
+
+Dar memória a um agente é a parte fácil. O problema aparece quando um fato novo chega e a IA precisa decidir se guarda, se corrige o que já sabia ou se apaga. Abrimos esse prompt por dentro e ele resolve isso em três partes:
+
+· quatro ações fechadas para cada fato, incluindo não mudar nada
+· critérios claros para atualizar e para apagar
+· IDs que o modelo mantém em vez de inventar
+
+No sexto slide está o esqueleto em português, pronto para adaptar à memória dos seus agentes.
+
+Fonte: mem0ai/mem0, licença Apache-2.0.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #agentesdeia #mem0

@@ -1,0 +1,89 @@
+{
+ "n": "10",
+ "tema": "avaliacao",
+ "cover": "Lembrar é fácil.<br>Difícil é a IA<br>saber <span class=\"hl\">o que apagar</span>.",
+ "cover_sub": "Como o mem0 decide, fato por fato, o que entra e o que sai da memória. E o <span class=\"ho\">esqueleto</span> no final.",
+ "name": "DEFAULT_UPDATE_MEMORY_PROMPT",
+ "desc": "do mem0, compara fatos novos com a memória salva e decide o que adicionar, atualizar ou apagar.",
+ "original": [
+  "You are a smart memory manager which",
+  "controls the memory of a system.",
+  "",
+  "# Compare newly retrieved facts",
+  "# with the existing memory:",
+  "- ADD / - UPDATE / - DELETE / - NONE",
+  "",
+  "# Guidelines",
+  "1. Add  2. Update  3. Delete  4. No Change",
+  "(cada regra com Old Memory, Retrieved facts",
+  "e New Memory em JSON)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Quatro<br>respostas<br><span class=\"ho\">possíveis</span>",
+   "code": "For each new fact, decide whether to:<br>- <mark>ADD</mark> / - <mark>UPDATE</mark><br>- <mark>DELETE</mark> / - <mark>NONE</mark>",
+   "bullets": [
+    [
+     "O modelo não escreve livremente.",
+     "Ele escolhe uma de quatro ações para cada fato."
+    ],
+    [
+     "NONE também é resposta.",
+     "Sem essa opção, a IA tende a mexer no que já estava certo."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Critério<br>para os casos<br>de dúvida",
+   "code": "if the memory contains \"Likes cheese pizza\"<br>and the retrieved fact is \"Loves cheese pizza\",<br>then <mark>you do not need to update it</mark>",
+   "bullets": [
+    [
+     "Atualiza quando o fato novo traz mais informação.",
+     "Mesmo sentido com outras palavras não conta."
+    ],
+    [
+     "Contradição apaga.",
+     "\"Não gosta de pizza de queijo\" remove a memória antiga."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "IDs que<br>o modelo <span class=\"ho\">não<br>inventa</span>",
+   "code": "while updating you have to <mark>keep the same ID</mark>.<br>return the IDs in the output from the input IDs only and <mark>do not generate any new ID</mark>.",
+   "bullets": [
+    [
+     "Só o ADD cria ID novo.",
+     "O resto reaproveita o que veio na entrada."
+    ],
+    [
+     "Cada regra tem um exemplo em JSON",
+     "com memória antiga, fatos novos e resultado."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# PAPEL",
+  "Você gerencia a memória de [sistema].",
+  "",
+  "# ENTRADA",
+  "Memória atual: [lista com id e texto]",
+  "Fatos novos: [lista]",
+  "",
+  "# PARA CADA FATO, ESCOLHA",
+  "ADICIONAR / ATUALIZAR / APAGAR / NADA",
+  "",
+  "# REGRAS",
+  "Atualize só se o fato novo tiver mais detalhe",
+  "Apague se houver contradição",
+  "Mantenha os IDs; crie ID só ao adicionar",
+  "",
+  "# EXEMPLO",
+  "[antes, fatos novos e depois em JSON]"
+ ],
+ "cta": "Salve e use<br>quando o seu agente<br>precisar <span class=\"ho\">lembrar certo</span>.",
+ "source": "Fonte: mem0ai/mem0 · mem0/configs/prompts.py · licença Apache-2.0"
+}

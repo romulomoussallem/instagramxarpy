@@ -80,6 +80,14 @@
    "licenca": "MIT",
    "status": "publicado",
    "media_id": "18112553078628217"
+  },
+  {
+   "n": "10",
+   "pasta": "10-memoria-mem0",
+   "repo": "mem0ai/mem0",
+   "arquivo": "mem0/configs/prompts.py (DEFAULT_UPDATE_MEMORY_PROMPT)",
+   "licenca": "Apache-2.0",
+   "status": "pronto"
   }
  ]
 }
