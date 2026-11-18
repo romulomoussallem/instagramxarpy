@@ -1,0 +1,15 @@
+Engenharia Reversa 08: o subagent_system, do agente goose.
+
+No 07 vimos o prompt de quem distribui o trabalho. Agora é o outro lado: o prompt que recebe a tarefa do agente principal, executa dentro de um limite e devolve só o resultado. Abrimos o prompt por dentro em três partes:
+
+· um papel com limites claros, incluindo a proibição de criar outros subagentes
+· variáveis que o sistema preenche a cada chamada, como número de turnos e ferramentas disponíveis
+· regras de economia que dizem quando parar de usar ferramentas
+
+No sexto slide está o esqueleto em português, pronto para você adaptar aos seus agentes.
+
+Fonte: block/goose, licença Apache-2.0.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #agentesdeia #claude

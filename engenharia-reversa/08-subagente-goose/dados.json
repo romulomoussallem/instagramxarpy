@@ -1,0 +1,86 @@
+{
+ "n": "08",
+ "cover": "O prompt que<br>faz a IA<br><span class=\"hl\">obedecer</span> a<br>outra IA.",
+ "cover_sub": "O lado de quem recebe a tarefa. E no final, o <span class=\"ho\">esqueleto</span> para os seus agentes.",
+ "name": "subagent_system",
+ "desc": "do agente goose, define como um subagente executa a tarefa que recebeu do agente principal.",
+ "original": [
+  "You are a specialized subagent… spawned by the main goose agent…",
+  "",
+  "# Your Role",
+  "- Bounded Operation: Operate within defined limits",
+  "- Security: Cannot spawn additional subagents",
+  "",
+  "# Tool Usage Guidelines",
+  "You have access to {{tool_count}} tools…",
+  "",
+  "# Communication Guidelines",
+  "(+ 5 regras)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Papel com<br><span class=\"ho\">limites</span>",
+   "code": "You were <mark>spawned by the main goose agent</mark>…<br>- Bounded Operation: Operate within <mark>defined limits</mark><br>- Security: <mark>Cannot spawn additional subagents</mark>",
+   "bullets": [
+    [
+      "Deixa claro quem manda.",
+      "O subagente sabe que responde ao agente principal."
+    ],
+    [
+      "Proíbe criar outros subagentes.",
+      "Isso evita uma cadeia de agentes sem fim."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Variáveis<br>de execução",
+   "code": "The maximum number of turns to respond is <mark>{{max_turns}}</mark>.<br>You have access to <mark>{{tool_count}}</mark> tools: <mark>{{available_tools}}</mark>",
+   "bullets": [
+    [
+      "O sistema preenche os números",
+      "a cada chamada. O prompt serve para qualquer tarefa."
+    ],
+    [
+      "A IA vê o próprio orçamento:",
+      "quantos turnos tem e quais ferramentas pode usar."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "Regras de<br>economia",
+   "code": "- Use the <mark>minimum number of tools</mark> needed<br>- Avoid <mark>exploratory tool usage</mark>…<br>- <mark>Stop using tools</mark> once you have sufficient information",
+   "bullets": [
+    [
+      "Diz quando parar,",
+      "e não só o que fazer. Corta chamadas inúteis."
+    ],
+    [
+      "O resumo vem por último.",
+      "O agente principal recebe só o resultado final."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# PAPEL",
+  "Você é um subagente. Recebeu esta tarefa do",
+  "agente principal: [tarefa].",
+  "Não crie outros subagentes.",
+  "",
+  "# LIMITES",
+  "- Máximo de [N] turnos",
+  "- Ferramentas disponíveis: [lista]",
+  "",
+  "# REGRAS",
+  "- Use o mínimo de ferramentas possível",
+  "- Pare assim que tiver o necessário",
+  "",
+  "# ENTREGA",
+  "Diga que terminou e entregue [formato]."
+ ],
+ "cta": "Salve e dê<br>a cada agente<br>um <span class=\"ho\">limite</span>.",
+ "source": "Fonte: block/goose · prompts/subagent_system.md · licença Apache-2.0"
+}
