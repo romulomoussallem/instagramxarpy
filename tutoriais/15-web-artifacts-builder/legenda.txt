@@ -1,0 +1,9 @@
+Tutorial 15 da série de skills: Web Artifacts Builder.
+
+Mostrar uma ideia navegável para o cliente vale mais do que descrevê-la. Esta skill monta artefatos web com várias telas e estado, usando React, Tailwind e shadcn/ui, e empacota o resultado. Para página simples ela é exagero, e o carrossel explica quando faz sentido.
+
+Nos slides: instalação, quando usar, um pedido para testar e prós e contras.
+
+Qual ideia sua você gostaria de ver como protótipo? Conta nos comentários.
+
+#claudecode #skills #inteligenciaartificial #ia

@@ -1,0 +1,9 @@
+Tutorial 13 da série de skills: Theme Factory.
+
+Quando cada peça sai com uma cor e uma fonte diferentes, a marca parece improvisada. A Theme Factory aplica um tema completo, com paleta e par de fontes, em slides, documentos e páginas. Tem dez temas prontos e cria um novo a partir das cores que você informar.
+
+Nos slides: instalação, as formas de pedir, um pedido para testar e prós e contras.
+
+Sua empresa tem paleta e fonte definidas por escrito? Responde nos comentários.
+
+#claudecode #skills #inteligenciaartificial #ia

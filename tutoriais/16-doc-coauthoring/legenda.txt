@@ -1,0 +1,9 @@
+Tutorial 16 da série de skills: Doc Co-authoring.
+
+Proposta e especificação costumam falhar porque quem escreve já sabe tudo. Esta skill organiza o trabalho em três fases: reunir o contexto, refinar o texto e testar com um leitor que não conhece o assunto. O ponto forte é essa última etapa, que mostra o que ficou confuso antes de você enviar.
+
+Nos slides: instalação, as três fases, um pedido para testar e prós e contras.
+
+Qual documento seu mais gera dúvida em quem lê? Conta nos comentários.
+
+#claudecode #skills #inteligenciaartificial #ia

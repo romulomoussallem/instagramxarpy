@@ -1,0 +1,82 @@
+[
+ {
+  "n": "12",
+  "skill": "Document Skills",
+  "marker": "Tutorial 12 da série",
+  "mascote": false,
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/12-document-skills/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/12-document-skills/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/12-document-skills/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/12-document-skills/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/12-document-skills/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/12-document-skills/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/12-document-skills/slide7.jpg"
+  ],
+  "caption": "Tutorial 12 da série de skills: Document Skills.\n\nSão quatro skills oficiais da Anthropic para arquivos de escritório: Word, Excel, PowerPoint e PDF. Com elas instaladas, o Claude entrega o arquivo pronto, e não só o texto para você montar depois. Para quem trabalha com cliente, é a diferença entre um rascunho e um anexo para enviar.\n\nNos slides: instalação, o que cada skill faz, um pedido para testar e prós e contras.\n\nQual arquivo você mais monta à mão toda semana? Conta nos comentários.\n\n#claudecode #skills #automacao #inteligenciaartificial #ia"
+ },
+ {
+  "n": "13",
+  "skill": "Theme Factory",
+  "marker": "Tutorial 13 da série",
+  "mascote": true,
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/13-theme-factory/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/13-theme-factory/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/13-theme-factory/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/13-theme-factory/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/13-theme-factory/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/13-theme-factory/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/13-theme-factory/slide7.jpg"
+  ],
+  "caption": "Tutorial 13 da série de skills: Theme Factory.\n\nQuando cada peça sai com uma cor e uma fonte diferentes, a marca parece improvisada. A Theme Factory aplica um tema completo, com paleta e par de fontes, em slides, documentos e páginas. Tem dez temas prontos e cria um novo a partir das cores que você informar.\n\nNos slides: instalação, as formas de pedir, um pedido para testar e prós e contras.\n\nSua empresa tem paleta e fonte definidas por escrito? Responde nos comentários.\n\n#claudecode #skills #inteligenciaartificial #ia"
+ },
+ {
+  "n": "14",
+  "skill": "Canvas Design",
+  "marker": "Tutorial 14 da série",
+  "mascote": false,
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/14-canvas-design/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/14-canvas-design/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/14-canvas-design/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/14-canvas-design/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/14-canvas-design/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/14-canvas-design/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/14-canvas-design/slide7.jpg"
+  ],
+  "caption": "Tutorial 14 da série de skills: Canvas Design.\n\nPôster, capa e infográfico costumam parar na fila do designer. A Canvas Design faz o Claude definir uma direção visual e só depois desenhar, entregando um PNG ou PDF original. Para quem precisa de uma peça rápida e com intenção, é um bom ponto de partida.\n\nNos slides: instalação, como funciona, um pedido para testar e prós e contras.\n\nQue peça visual você mais demora para conseguir? Conta nos comentários.\n\n#claudecode #skills #inteligenciaartificial #ia"
+ },
+ {
+  "n": "15",
+  "skill": "Web Artifacts Builder",
+  "marker": "Tutorial 15 da série",
+  "mascote": true,
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/15-web-artifacts-builder/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/15-web-artifacts-builder/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/15-web-artifacts-builder/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/15-web-artifacts-builder/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/15-web-artifacts-builder/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/15-web-artifacts-builder/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/15-web-artifacts-builder/slide7.jpg"
+  ],
+  "caption": "Tutorial 15 da série de skills: Web Artifacts Builder.\n\nMostrar uma ideia navegável para o cliente vale mais do que descrevê-la. Esta skill monta artefatos web com várias telas e estado, usando React, Tailwind e shadcn/ui, e empacota o resultado. Para página simples ela é exagero, e o carrossel explica quando faz sentido.\n\nNos slides: instalação, quando usar, um pedido para testar e prós e contras.\n\nQual ideia sua você gostaria de ver como protótipo? Conta nos comentários.\n\n#claudecode #skills #inteligenciaartificial #ia"
+ },
+ {
+  "n": "16",
+  "skill": "Doc Co-authoring",
+  "marker": "Tutorial 16 da série",
+  "mascote": false,
+  "image_urls": [
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/16-doc-coauthoring/slide1.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/16-doc-coauthoring/slide2.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/16-doc-coauthoring/slide3.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/16-doc-coauthoring/slide4.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/16-doc-coauthoring/slide5.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/16-doc-coauthoring/slide6.jpg",
+   "https://raw.githubusercontent.com/romulomoussallem/instagramxarpy/main/tutoriais/16-doc-coauthoring/slide7.jpg"
+  ],
+  "caption": "Tutorial 16 da série de skills: Doc Co-authoring.\n\nProposta e especificação costumam falhar porque quem escreve já sabe tudo. Esta skill organiza o trabalho em três fases: reunir o contexto, refinar o texto e testar com um leitor que não conhece o assunto. O ponto forte é essa última etapa, que mostra o que ficou confuso antes de você enviar.\n\nNos slides: instalação, as três fases, um pedido para testar e prós e contras.\n\nQual documento seu mais gera dúvida em quem lê? Conta nos comentários.\n\n#claudecode #skills #inteligenciaartificial #ia"
+ }
+]

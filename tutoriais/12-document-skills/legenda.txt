@@ -1,0 +1,9 @@
+Tutorial 12 da série de skills: Document Skills.
+
+São quatro skills oficiais da Anthropic para arquivos de escritório: Word, Excel, PowerPoint e PDF. Com elas instaladas, o Claude entrega o arquivo pronto, e não só o texto para você montar depois. Para quem trabalha com cliente, é a diferença entre um rascunho e um anexo para enviar.
+
+Nos slides: instalação, o que cada skill faz, um pedido para testar e prós e contras.
+
+Qual arquivo você mais monta à mão toda semana? Conta nos comentários.
+
+#claudecode #skills #automacao #inteligenciaartificial #ia

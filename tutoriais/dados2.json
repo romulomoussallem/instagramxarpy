@@ -1,0 +1,258 @@
+[
+ {
+  "n": "12",
+  "slug": "document-skills",
+  "name": "Document Skills",
+  "sub": "Word, Excel, PowerPoint e PDF criados e editados pelo Claude",
+  "what": "Quatro skills oficiais da Anthropic para arquivos de escritório: docx, xlsx, pptx e pdf. O Claude passa a ler, criar e editar esses formatos, em vez de só escrever o texto e deixar a montagem para você.",
+  "bullets": [
+   "Mantidas pela própria Anthropic no repositório anthropics/skills",
+   "Excel: fórmulas, formatação e modelos são preservados",
+   "PDF: leitura, junção, divisão, OCR, marca d'água e formulários"
+  ],
+  "install": [
+   "/plugin marketplace add anthropics/skills",
+   "/plugin install document-skills@anthropic-agent-skills"
+  ],
+  "alt_label": "",
+  "alt": [],
+  "use_title": "O que cada uma faz",
+  "use": [
+   [
+    "docx",
+    "Cria e edita documentos Word com tabelas, cabeçalhos e imagens"
+   ],
+   [
+    "xlsx",
+    "Monta planilhas com fórmulas e mantém o modelo intacto"
+   ],
+   [
+    "pptx",
+    "Gera e ajusta apresentações a partir do seu conteúdo"
+   ],
+   [
+    "pdf",
+    "Lê, junta, divide e preenche PDFs, inclusive com OCR"
+   ]
+  ],
+  "prompt": "Pegue os três PDFs de proposta da pasta, junte em um só arquivo e gere uma planilha com o valor total de cada um.",
+  "pros": [
+   "Entrega o arquivo final, não só o texto",
+   "Funciona com os formatos que o cliente realmente usa",
+   "Automatiza tarefas repetidas de escritório"
+  ],
+  "cons": [
+   "Layouts complexos ainda pedem revisão manual",
+   "Planilhas grandes consomem bastante contexto",
+   "A licença varia por skill, vale conferir antes de usar em produto"
+  ],
+  "next": "Theme Factory",
+  "caption": "Tutorial 12 da série de skills: Document Skills.\n\nSão quatro skills oficiais da Anthropic para arquivos de escritório: Word, Excel, PowerPoint e PDF. Com elas instaladas, o Claude entrega o arquivo pronto, e não só o texto para você montar depois. Para quem trabalha com cliente, é a diferença entre um rascunho e um anexo para enviar.\n\nNos slides: instalação, o que cada skill faz, um pedido para testar e prós e contras.\n\nQual arquivo você mais monta à mão toda semana? Conta nos comentários.\n\n#claudecode #skills #automacao #inteligenciaartificial #ia",
+  "mascote": false,
+  "pose": "apontando"
+ },
+ {
+  "n": "13",
+  "slug": "theme-factory",
+  "name": "Theme Factory",
+  "sub": "Cores e fontes consistentes em slides, documentos e páginas",
+  "what": "Uma skill que aplica um tema completo, com paleta e par de fontes, a qualquer artefato: apresentação, relatório ou página em HTML. Traz dez temas prontos e também cria um novo a partir das suas cores.",
+  "bullets": [
+   "Faz parte do repositório oficial anthropics/skills",
+   "Dez temas profissionais prontos para usar",
+   "Gera um tema novo a partir das cores da sua marca"
+  ],
+  "install": [
+   "/plugin marketplace add anthropics/skills",
+   "/plugin install example-skills@anthropic-agent-skills"
+  ],
+  "alt_label": "",
+  "alt": [],
+  "use_title": "Como pedir",
+  "use": [
+   [
+    "tema pronto",
+    "Peça um dos dez temas para o documento atual"
+   ],
+   [
+    "tema próprio",
+    "Informe as cores da marca e peça um tema novo"
+   ],
+   [
+    "trocar depois",
+    "Mude o tema sem refazer o conteúdo"
+   ],
+   [
+    "vários formatos",
+    "Aplique o mesmo tema em slide, relatório e página"
+   ]
+  ],
+  "prompt": "Use a skill theme-factory e aplique um dos temas prontos na minha apresentação. Depois me mostre como ficaria com as cores da minha marca.",
+  "pros": [
+   "Visual coerente entre peças diferentes",
+   "Poupa a escolha de cor e fonte no chute",
+   "Troca de tema sem mexer no conteúdo"
+  ],
+  "cons": [
+   "Os dez temas prontos são genéricos",
+   "Marca com regras rígidas pede ajuste manual",
+   "Não substitui um manual de identidade visual"
+  ],
+  "next": "Canvas Design",
+  "caption": "Tutorial 13 da série de skills: Theme Factory.\n\nQuando cada peça sai com uma cor e uma fonte diferentes, a marca parece improvisada. A Theme Factory aplica um tema completo, com paleta e par de fontes, em slides, documentos e páginas. Tem dez temas prontos e cria um novo a partir das cores que você informar.\n\nNos slides: instalação, as formas de pedir, um pedido para testar e prós e contras.\n\nSua empresa tem paleta e fonte definidas por escrito? Responde nos comentários.\n\n#claudecode #skills #inteligenciaartificial #ia",
+  "mascote": true,
+  "pose": "apresentando"
+ },
+ {
+  "n": "14",
+  "slug": "canvas-design",
+  "name": "Canvas Design",
+  "sub": "Pôsteres e peças visuais estáticas em PNG ou PDF",
+  "what": "Uma skill para criar peças visuais estáticas, como pôsteres, capas e infográficos. O Claude define primeiro uma filosofia de design e só depois desenha. O resultado sai em PNG ou PDF e é sempre original, sem copiar artistas existentes.",
+  "bullets": [
+   "Faz parte do repositório oficial anthropics/skills",
+   "Entrega em PNG ou PDF",
+   "Cria design original, sem copiar o trabalho de ninguém"
+  ],
+  "install": [
+   "/plugin marketplace add anthropics/skills",
+   "/plugin install example-skills@anthropic-agent-skills"
+  ],
+  "alt_label": "",
+  "alt": [],
+  "use_title": "Como funciona",
+  "use": [
+   [
+    "1. filosofia",
+    "O Claude descreve a direção visual antes de desenhar"
+   ],
+   [
+    "2. composição",
+    "Monta a peça com espaço, tipografia e cor"
+   ],
+   [
+    "3. entrega",
+    "Gera o arquivo em PNG ou PDF"
+   ],
+   [
+    "4. ajuste",
+    "Você pede mudanças e ele refaz"
+   ]
+  ],
+  "prompt": "Use a skill canvas-design para criar um pôster A3 para um evento de tecnologia. Me explique a direção visual antes de desenhar.",
+  "pros": [
+   "Peça pronta em minutos",
+   "A direção visual vem explicada",
+   "Original por princípio"
+  ],
+  "cons": [
+   "Serve para peças estáticas, não para edição fina",
+   "Texto longo na arte pede conferência",
+   "Marca com regras rígidas precisa de ajuste"
+  ],
+  "next": "Web Artifacts Builder",
+  "caption": "Tutorial 14 da série de skills: Canvas Design.\n\nPôster, capa e infográfico costumam parar na fila do designer. A Canvas Design faz o Claude definir uma direção visual e só depois desenhar, entregando um PNG ou PDF original. Para quem precisa de uma peça rápida e com intenção, é um bom ponto de partida.\n\nNos slides: instalação, como funciona, um pedido para testar e prós e contras.\n\nQue peça visual você mais demora para conseguir? Conta nos comentários.\n\n#claudecode #skills #inteligenciaartificial #ia",
+  "mascote": false,
+  "pose": "apontando"
+ },
+ {
+  "n": "15",
+  "slug": "web-artifacts-builder",
+  "name": "Web Artifacts Builder",
+  "sub": "Páginas e protótipos interativos com React, Tailwind e shadcn/ui",
+  "what": "Uma skill para construir artefatos web mais elaborados, com várias telas, estado e componentes prontos. O Claude usa React, Tailwind CSS e shadcn/ui e empacota o resultado. Não é para páginas simples de um arquivo só.",
+  "bullets": [
+   "Faz parte do repositório oficial anthropics/skills",
+   "Usa React, Tailwind CSS e shadcn/ui",
+   "Indicada para estado, rotas e muitos componentes"
+  ],
+  "install": [
+   "/plugin marketplace add anthropics/skills",
+   "/plugin install example-skills@anthropic-agent-skills"
+  ],
+  "alt_label": "",
+  "alt": [],
+  "use_title": "Quando usar",
+  "use": [
+   [
+    "protótipo",
+    "Tela navegável para validar uma ideia com o cliente"
+   ],
+   [
+    "painel",
+    "Dashboard com filtros e vários componentes"
+   ],
+   [
+    "ferramenta",
+    "Calculadora ou formulário com lógica própria"
+   ],
+   [
+    "página simples",
+    "Não precisa: um arquivo HTML resolve"
+   ]
+  ],
+  "prompt": "Use a skill web-artifacts-builder e monte um protótipo de painel de vendas com filtro por período e três gráficos.",
+  "pros": [
+   "Protótipo interativo sem configurar projeto",
+   "Componentes prontos com visual consistente",
+   "Bom para validar ideia antes de desenvolver"
+  ],
+  "cons": [
+   "Exagero para páginas simples",
+   "Exige conhecer o básico de React para ajustar",
+   "O resultado é protótipo, não produto final"
+  ],
+  "next": "Doc Co-authoring",
+  "caption": "Tutorial 15 da série de skills: Web Artifacts Builder.\n\nMostrar uma ideia navegável para o cliente vale mais do que descrevê-la. Esta skill monta artefatos web com várias telas e estado, usando React, Tailwind e shadcn/ui, e empacota o resultado. Para página simples ela é exagero, e o carrossel explica quando faz sentido.\n\nNos slides: instalação, quando usar, um pedido para testar e prós e contras.\n\nQual ideia sua você gostaria de ver como protótipo? Conta nos comentários.\n\n#claudecode #skills #inteligenciaartificial #ia",
+  "mascote": true,
+  "pose": "notebook"
+ },
+ {
+  "n": "16",
+  "slug": "doc-coauthoring",
+  "name": "Doc Co-authoring",
+  "sub": "Um método em três fases para escrever documentos que o leitor entende",
+  "what": "Uma skill que guia a escrita de propostas, especificações técnicas e documentos de decisão. O Claude junta o contexto, refina o texto com você e, no fim, testa se o documento funciona para quem vai ler.",
+  "bullets": [
+   "Faz parte do repositório oficial anthropics/skills",
+   "Três fases: reunir, refinar e testar com o leitor",
+   "Serve para propostas, especificações e decisões"
+  ],
+  "install": [
+   "/plugin marketplace add anthropics/skills",
+   "/plugin install example-skills@anthropic-agent-skills"
+  ],
+  "alt_label": "",
+  "alt": [],
+  "use_title": "As três fases",
+  "use": [
+   [
+    "1. reunir",
+    "Levanta contexto e faz perguntas sobre o objetivo"
+   ],
+   [
+    "2. refinar",
+    "Escreve por seções e ajusta com você"
+   ],
+   [
+    "3. testar",
+    "Simula um leitor sem contexto para achar lacunas"
+   ]
+  ],
+  "prompt": "Use a skill doc-coauthoring para me ajudar a escrever uma proposta técnica para um cliente que quer automatizar o atendimento.",
+  "pros": [
+   "Documento pensado para o leitor, não para quem escreve",
+   "As perguntas iniciais evitam retrabalho",
+   "O teste final aponta o que ficou confuso"
+  ],
+  "cons": [
+   "Mais lento que pedir o texto direto",
+   "Pede que você responda às perguntas",
+   "Para textos curtos é exagero"
+  ],
+  "next": "",
+  "caption": "Tutorial 16 da série de skills: Doc Co-authoring.\n\nProposta e especificação costumam falhar porque quem escreve já sabe tudo. Esta skill organiza o trabalho em três fases: reunir o contexto, refinar o texto e testar com um leitor que não conhece o assunto. O ponto forte é essa última etapa, que mostra o que ficou confuso antes de você enviar.\n\nNos slides: instalação, as três fases, um pedido para testar e prós e contras.\n\nQual documento seu mais gera dúvida em quem lê? Conta nos comentários.\n\n#claudecode #skills #inteligenciaartificial #ia",
+  "mascote": false,
+  "pose": "apontando"
+ }
+]

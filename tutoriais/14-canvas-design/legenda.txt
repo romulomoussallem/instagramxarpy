@@ -1,0 +1,9 @@
+Tutorial 14 da série de skills: Canvas Design.
+
+Pôster, capa e infográfico costumam parar na fila do designer. A Canvas Design faz o Claude definir uma direção visual e só depois desenhar, entregando um PNG ou PDF original. Para quem precisa de uma peça rápida e com intenção, é um bom ponto de partida.
+
+Nos slides: instalação, como funciona, um pedido para testar e prós e contras.
+
+Que peça visual você mais demora para conseguir? Conta nos comentários.
+
+#claudecode #skills #inteligenciaartificial #ia
