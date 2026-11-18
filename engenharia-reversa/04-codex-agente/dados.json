@@ -1,0 +1,88 @@
+{
+ "n": "04",
+ "cover": "O prompt que<br>impede a IA de<br><span class=\"hl\">apagar o seu</span><br>trabalho.",
+ "cover_sub": "Raio-x do prompt do agente Codex, da OpenAI. No final, o <span class=\"ho\">esqueleto</span> para os seus.",
+ "name": "gpt_5_codex_prompt",
+ "desc": "do Codex CLI, orienta um agente que mexe em arquivos e roda comandos direto no computador do usuário.",
+ "original": [
+  "# General",
+  "You are Codex, based on GPT-5…",
+  "",
+  "# Editing constraints",
+  "You may be in a dirty git worktree.",
+  "(+ 9 regras de edição e de git)",
+  "",
+  "# Plan tool",
+  "(3 regras de quando planejar)",
+  "",
+  "# Presenting your work",
+  "(tom, formato, bullets, referências)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Proteger o que<br>é do <span class=\"ho\">usuário</span>",
+   "code": "<mark>NEVER revert existing changes</mark> you did not make unless explicitly requested…<br>If this happens, <mark>STOP IMMEDIATELY</mark> and ask the user",
+   "bullets": [
+    [
+     "Parte do pior cenário:",
+     "o agente desfazer alterações que não são dele."
+    ],
+    [
+     "Diz o que fazer na dúvida:",
+     "parar e perguntar, em vez de seguir adiante."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Critério para<br>usar a ferramenta",
+   "code": "Skip using the planning tool for straightforward tasks (<mark>roughly the easiest 25%</mark>).<br><mark>Do not make single-step plans.</mark>",
+   "bullets": [
+    [
+     "Troca o \"quando fizer sentido\"",
+     "por uma régua que dá para aplicar."
+    ],
+    [
+     "Fecha o uso inútil:",
+     "plano de um passo só não entra."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "A resposta final<br>tem regras",
+   "code": "Bullets: use - ; … <mark>4–6 per list</mark> ordered by importance<br>Present <mark>findings first</mark> (ordered by severity…)",
+   "bullets": [
+    [
+     "Números no lugar de adjetivos:",
+     "quantos itens, em que ordem, com que marcação."
+    ],
+    [
+     "Muda conforme o pedido:",
+     "revisão de código abre pelos problemas encontrados."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# PAPEL E AMBIENTE",
+  "Você é [agente] e trabalha em [onde age].",
+  "",
+  "# O QUE NUNCA FAZER",
+  "Nunca [ação destrutiva] sem pedido explícito.",
+  "Se notar algo inesperado, pare e pergunte.",
+  "",
+  "# QUANDO USAR CADA FERRAMENTA",
+  "[ferramenta]: só quando [critério medível]",
+  "",
+  "# COMO ENTREGAR",
+  "Comece por [o mais importante].",
+  "Listas de [N] itens, por ordem de importância.",
+  "",
+  "# CASOS ESPECIAIS",
+  "Se pedirem [tipo], responda com [formato]."
+ ],
+ "cta": "Salve e diga<br>à IA o que ela<br><span class=\"ho\">nunca</span> deve fazer.",
+ "source": "Fonte: openai/codex · gpt_5_codex_prompt.md · licença Apache-2.0"
+}

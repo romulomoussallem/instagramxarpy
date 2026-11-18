@@ -26,6 +26,14 @@
    "licenca": "Apache-2.0",
    "status": "publicado",
    "media_id": "17880842895566742"
+  },
+  {
+   "n": "04",
+   "pasta": "04-codex-agente",
+   "repo": "openai/codex",
+   "arquivo": "codex-rs/core/gpt_5_codex_prompt.md",
+   "licenca": "Apache-2.0",
+   "status": "pronto"
   }
  ]
 }

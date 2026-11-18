@@ -1,0 +1,15 @@
+Engenharia Reversa 04: o prompt do agente Codex, da OpenAI.
+
+O Codex CLI é um agente de programação que edita arquivos e roda comandos direto no computador de quem usa. Com esse nível de acesso, o prompt precisa dizer com clareza o que o agente pode fazer, o que nunca deve fazer e como prestar contas no final. Abrimos o prompt por dentro e separamos as três partes que sustentam isso:
+
+· regras que protegem as alterações feitas pelo usuário, com ordem de parar e perguntar na dúvida
+· critérios medíveis para decidir quando usar cada ferramenta
+· um formato de resposta final com números, ordem e casos especiais
+
+No sexto slide está o esqueleto em português, pronto para adaptar a qualquer agente que tenha acesso a sistemas de verdade.
+
+Fonte: openai/codex, arquivo codex-rs/core/gpt_5_codex_prompt.md, licença Apache-2.0.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #agentesdeia #programacao
