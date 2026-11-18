@@ -1,0 +1,87 @@
+{
+ "n": "05",
+ "cover": "Por dentro do<br>prompt que<br><span class=\"hl\">escreve prompts</span><br>para você.",
+ "cover_sub": "Raio-x do Metaprompt da Anthropic. No final, o <span class=\"ho\">esqueleto</span> para usar nos seus.",
+ "name": "metaprompt",
+ "desc": "do Anthropic Cookbook, recebe uma tarefa descrita em uma linha e devolve um prompt completo, com variáveis e instruções.",
+ "original": [
+  "Today you will be writing instructions to an… AI assistant…",
+  "",
+  "# &lt;Task Instruction Example&gt;",
+  "(5 exemplos completos: atendimento, tutor de matemática, uso de funções…)",
+  "",
+  "# &lt;Task&gt; {{TASK}} &lt;/Task&gt;",
+  "",
+  "# To write your instructions…",
+  "1. In &lt;Inputs&gt; tags…",
+  "(+ 2 etapas e 5 notas finais)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Ensina com<br><span class=\"ho\">exemplos</span>",
+   "code": "Here are some <mark>examples of tasks and instructions</mark>.<br>&lt;Task&gt; Act as a math tutor &lt;/Task&gt;<br>(… e mais 4 tarefas, cada uma com o prompt pronto)",
+   "bullets": [
+    [
+     "Mostra o resultado esperado",
+     "em vez de só descrever como ele deveria ser."
+    ],
+    [
+     "Exemplos bem diferentes entre si",
+     "ensinam o padrão sem a IA copiar um caso só."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Planejar antes<br>de escrever",
+   "code": "1. In <mark>&lt;Inputs&gt;</mark> tags, write down the barebones… variable(s)<br>2. In <mark>&lt;Instructions Structure&gt;</mark> tags, plan out how you will structure…<br>3. Finally, in <mark>&lt;Instructions&gt;</mark> tags, write…",
+   "bullets": [
+    [
+     "Três etapas com nome próprio:",
+     "variáveis, estrutura e só depois o texto."
+    ],
+    [
+     "Dá uma regra de ordem:",
+     "texto longo entra antes das ordens sobre ele."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "Notas que<br>evitam erros",
+   "code": "Note: you are <mark>not *completing* the task</mark> here.<br>Note: always ask for the <mark>justification before the score</mark>.",
+   "bullets": [
+    [
+     "Antecipa o erro mais provável:",
+     "a IA resolver a tarefa em vez de escrever o prompt."
+    ],
+    [
+     "Cada nota é uma lição prática,",
+     "como pedir o motivo antes da nota final."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# PAPEL",
+  "Você vai escrever instruções para [quem executa].",
+  "",
+  "# EXEMPLOS",
+  "&lt;exemplo&gt; tarefa + prompt pronto &lt;/exemplo&gt;",
+  "(de 2 a 5 casos bem diferentes)",
+  "",
+  "# A TAREFA",
+  "&lt;tarefa&gt; [descreva em uma linha] &lt;/tarefa&gt;",
+  "",
+  "# COMO FAZER",
+  "1. Liste as variáveis de entrada",
+  "2. Planeje a estrutura",
+  "3. Escreva as instruções",
+  "",
+  "# CUIDADOS",
+  "Não execute a tarefa. Peça o motivo antes da nota."
+ ],
+ "cta": "Salve e deixe a<br>IA escrever o<br><span class=\"ho\">primeiro rascunho</span>.",
+ "source": "Fonte: anthropics/anthropic-cookbook · misc/metaprompt.ipynb · licença MIT"
+}

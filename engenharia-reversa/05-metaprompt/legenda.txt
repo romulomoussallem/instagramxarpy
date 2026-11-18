@@ -1,0 +1,15 @@
+Engenharia Reversa 05: o Metaprompt, do Anthropic Cookbook.
+
+Você descreve a tarefa em uma linha e ele devolve um prompt completo, com variáveis de entrada e instruções organizadas. Abrimos o prompt por dentro para mostrar o que faz ele funcionar:
+
+· cinco exemplos completos de tarefa e prompt pronto
+· três etapas antes de escrever: variáveis, estrutura e instruções
+· notas finais que antecipam os erros mais comuns da IA
+
+No sexto slide está o esqueleto em português, pronto para você adaptar.
+
+Fonte: anthropics/anthropic-cookbook, licença MIT.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #claude #automacao

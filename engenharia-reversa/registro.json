@@ -35,6 +35,14 @@
    "licenca": "Apache-2.0",
    "status": "publicado",
    "media_id": "18128018071992535"
+  },
+  {
+   "n": "05",
+   "pasta": "05-metaprompt",
+   "repo": "anthropics/anthropic-cookbook",
+   "arquivo": "misc/metaprompt.ipynb",
+   "licenca": "MIT",
+   "status": "pronto"
   }
  ]
 }
