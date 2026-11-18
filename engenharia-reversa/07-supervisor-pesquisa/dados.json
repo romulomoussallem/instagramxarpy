@@ -1,0 +1,85 @@
+{
+ "n": "07",
+ "cover": "O prompt que<br>ensina a IA a<br><span class=\"hl\">chefiar</span> outras<br>IAs.",
+ "cover_sub": "Raio-x do supervisor do Open Deep Research. No final, o <span class=\"ho\">esqueleto</span> para dividir tarefas entre agentes.",
+ "name": "lead_researcher_prompt",
+ "desc": "do Open Deep Research (LangChain), coordena uma pesquisa: decide quantos agentes chamar, o que cada um investiga e quando parar.",
+ "original": [
+  "You are a research supervisor… today's date is {date}.",
+  "",
+  "&lt;Task&gt;",
+  "&lt;Available Tools&gt;",
+  "(ConductResearch, ResearchComplete, think_tool)",
+  "&lt;Instructions&gt;",
+  "&lt;Hard Limits&gt;",
+  "&lt;Show Your Thinking&gt;",
+  "&lt;Scaling Rules&gt;",
+  "(cada bloco com regras e exemplos)"
+ ],
+ "pieces": [
+  {
+   "tag": "PEÇA 1",
+   "title": "Orçamento<br>com <span class=\"ho\">teto</span>",
+   "code": "- <mark>Bias towards single agent</mark><br>- Stop when you can answer confidently<br>- Always stop after <mark>{max_researcher_iterations}</mark> tool calls",
+   "bullets": [
+    [
+     "O padrão é um agente só.",
+     "Dividir a tarefa precisa de motivo claro."
+    ],
+    [
+     "O limite vem por variável.",
+     "Quem roda o sistema controla custo sem reescrever o prompt."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 2",
+   "title": "Pensa antes<br>e depois",
+   "code": "<mark>Use think_tool before</mark> calling ConductResearch…<br>and <mark>after each</mark> ConductResearch to assess progress.<br>- What's missing?",
+   "bullets": [
+    [
+     "Antes de delegar, planeja.",
+     "Depois de cada retorno, confere o que falta."
+    ],
+    [
+     "As perguntas são fixas,",
+     "então a decisão de parar ou seguir fica previsível."
+    ]
+   ]
+  },
+  {
+   "tag": "PEÇA 3",
+   "title": "Escala com<br><span class=\"ho\">exemplo</span>",
+   "code": "List the top 10 coffee shops… → <mark>Use 1 sub-agent</mark><br>Compare OpenAI vs. Anthropic vs. DeepMind… → <mark>Use 3 sub-agents</mark>",
+   "bullets": [
+    [
+     "Dois exemplos concretos",
+     "mostram quando dividir e quando não."
+    ],
+    [
+     "Cada pedido vai completo,",
+     "porque um agente não vê o trabalho do outro."
+    ]
+   ]
+  }
+ ],
+ "skeleton": [
+  "# PAPEL",
+  "Você coordena a tarefa e delega partes",
+  "para assistentes. Data de hoje: [data].",
+  "",
+  "# LIMITES",
+  "- Prefira um assistente só.",
+  "- No máximo [N] assistentes por rodada.",
+  "- Pare quando já puder responder.",
+  "",
+  "# ANTES E DEPOIS DE DELEGAR",
+  "Planeje. Depois avalie: o que falta?",
+  "",
+  "# QUANDO DIVIDIR",
+  "Comparação de 3 itens: 3 assistentes.",
+  "Cada pedido completo, sem siglas."
+ ],
+ "cta": "Salve e use na<br>próxima tarefa<br>com <span class=\"ho\">vários agentes</span>.",
+ "source": "Fonte: langchain-ai/open_deep_research · prompts.py · licença MIT"
+}

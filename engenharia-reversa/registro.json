@@ -53,6 +53,14 @@
    "licenca": "MIT",
    "status": "publicado",
    "media_id": "18642698086021322"
+  },
+  {
+   "n": "07",
+   "pasta": "07-supervisor-pesquisa",
+   "repo": "langchain-ai/open_deep_research",
+   "arquivo": "src/open_deep_research/prompts.py (lead_researcher_prompt)",
+   "licenca": "MIT",
+   "status": "pronto"
   }
  ]
 }

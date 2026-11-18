@@ -1,0 +1,15 @@
+Engenharia Reversa 07: o lead_researcher_prompt, do projeto Open Deep Research da LangChain.
+
+É o prompt do supervisor: a IA que recebe uma pergunta, decide quantos agentes chamar, o que cada um vai pesquisar e a hora de parar. Serve de base para qualquer fluxo em que uma IA distribui trabalho para outras. Abrimos o prompt por dentro em três partes:
+
+· um orçamento com teto, que começa com um agente só e para quando já dá para responder
+· uma pausa obrigatória para planejar antes de delegar e avaliar o que falta depois
+· regras de escala com exemplos concretos de quando dividir a tarefa
+
+No sexto slide está o esqueleto em português, pronto para você adaptar.
+
+Fonte: langchain-ai/open_deep_research, licença MIT.
+
+Salve e comente qual prompt você quer ver por dentro no próximo.
+
+#prompt #engenhariadeprompt #inteligenciaartificial #agentesdeia #claude
