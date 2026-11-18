@@ -13,3 +13,5 @@ Regras de escolha do prompt:
 - Nada de prompts vazados de empresas (repositórios de "system prompts leaked" ficam fora).
 - Complexo de verdade: várias seções, regras, exemplos ou variáveis. Evitar prompts de uma linha.
 - Trechos citados curtos, sempre com fonte.
+
+Variação visual (18/11): a capa alterna entre 4 layouts conforme o número do prompt (n mod 4): 0 título + robô à direita, 1 número gigante laranja, 2 bloco laranja sólido, 3 fundo branco. O brilho (glow) foi removido. Gerar sempre com `tools/gen_rev.py`, sem copiar o layout do post anterior.

@@ -30,7 +30,7 @@ CSS = f"""
 @font-face {{ font-family:M; src:url('file://{FONTS}/JetBrainsMono.ttf'); font-weight:100 900; }}
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 body {{ width:{W}px; height:{H}px; background:{BG}; color:{TX}; font-family:I; position:relative; overflow:hidden;
-  background-image:radial-gradient(900px 600px at 85% 0%, rgba(255,81,0,.14), transparent 60%), radial-gradient(700px 500px at 0% 100%, rgba(255,81,0,.05), transparent 60%); }}
+  }}
 .kick {{ position:absolute; left:80px; top:84px; font-family:M; font-weight:700; font-size:24px; letter-spacing:3px; color:{MU}; }}
 .kick b {{ color:{OR}; }}
 .pg {{ position:absolute; right:80px; top:84px; font-family:M; font-size:24px; color:{MU}; }}
@@ -54,9 +54,35 @@ body {{ width:{W}px; height:{H}px; background:{BG}; color:{TX}; font-family:I; p
 .src {{ position:absolute; left:80px; right:80px; font-family:M; font-size:20px; color:{MU}; }}
 """
 
-def evilbot(scale, left, top):
+LIGHT = f"""
+body {{ background:#FAFAFA; color:#060607; }} .kick,.pg,.src {{ color:#6b6b70; }}
+.rule {{ background:#d9d9dc; }} .hl {{ background:#060607; color:#FAFAFA; }}
+.pill {{ color:#060607; border-color:#060607; }} .p {{ color:#2a2a2d; }}
+"""
+
+def cover(d):
+    v = int(d["n"]) % 4
+    sub = f'<div class="p" style="position:absolute;left:80px;right:80px;top:{{top}}px">{d["cover_sub"]}</div>'
+    if v == 0:   # título à esquerda, robô à direita (layout original, sem brilho)
+        return page(1, d, f'<div class="h" style="font-size:72px;top:190px">{d["cover"]}</div>'
+            + sub.format(top=720).replace('right:80px','right:420px') + evilbot(1.05, 660, 700))
+    if v == 1:   # número gigante em laranja, robô espelhado embaixo à esquerda
+        return page(1, d, f'<div style="position:absolute;left:60px;top:150px;font-family:M;font-weight:800;font-size:430px;line-height:1;letter-spacing:-24px;color:{OR}">{int(d["n"]):02d}</div>'
+            f'<div class="h" style="top:600px;left:80px;right:80px;font-size:64px">{d["cover"]}</div>'
+            + sub.format(top=950).replace('right:80px','right:80px').replace('font-weight','font-weight')
+            + evilbot(0.55, 700, 640, flip=True))
+    if v == 2:   # bloco laranja sólido em cima, preto embaixo
+        return page(1, d, f'<div style="position:absolute;left:0;top:0;width:1080px;height:760px;background:{OR};z-index:-1"></div>'
+            f'<div class="h" style="top:230px;left:80px;right:80px;font-size:78px;color:#060607">{d["cover"].replace("class=\"hl\"","class=\"hl2\"").replace("class=\"ho\"","class=\"hl2\"")}</div>'
+            + sub.format(top=830) + evilbot(0.8, 760, 960, flip=True)
+            + '<style>.hl2{background:#060607;color:#FAFAFA;display:inline-block;padding:2px 16px 6px;margin:4px 0}.kick,.kick b,.pg{color:#060607!important}</style>')
+    # v == 3: fundo branco, texto preto, robô grande
+    return page(1, d, f'<div class="h" style="top:200px;left:80px;right:80px;font-size:76px">{d["cover"].replace("class=\"ho\"","class=\"hl\"")}</div>'
+        + sub.format(top=700).replace('right:80px','right:80px') + evilbot(1.1, 560, 840), light=True)
+
+def evilbot(scale, left, top, flip=False):
     w, h = int(330 * scale), int(300 * scale)
-    return f"""<svg style="position:absolute;left:{left}px;top:{top}px;filter:drop-shadow(0 0 40px rgba(255,81,0,.45))" width="{w}" height="{h}" viewBox="0 0 330 300">
+    return f"""<svg style="position:absolute;left:{left}px;top:{top}px;{'transform:scaleX(-1);' if flip else ''}" width="{w}" height="{h}" viewBox="0 0 330 300">
   <path d="M120 52 L104 6 L148 40 Z" fill="#000" stroke="{OR}" stroke-width="5"/><path d="M210 52 L226 6 L182 40 Z" fill="#000" stroke="{OR}" stroke-width="5"/>
   <rect x="35" y="52" width="260" height="170" rx="6" fill="{OR}" stroke="#000" stroke-width="7"/>
   <rect x="8" y="100" width="27" height="70" fill="#000"/><rect x="295" y="100" width="27" height="70" fill="#000"/>
@@ -77,16 +103,15 @@ def lines(ls):
         else: out.append(l)
     return "<br>".join(out)
 
-def page(n, d, inner, right='<div class="pill">Arrasta →</div>'):
+def page(n, d, inner, right='<div class="pill">Arrasta →</div>', light=False):
     kick = f'ENGENHARIA REVERSA · <b>PROMPT {d["n"]}</b>'
-    return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{LIGHT if light else ''}</style></head><body>
 <div class="kick">{kick}</div><div class="pg">{n:02d}/{T:02d}</div><img class="mark" src="{ICON}">{inner}
 <div class="rule"></div><div class="foot"><div class="who"><img src="{ICON}" style="width:44px;height:44px">@xarpy_dev</div>{right}</div></body></html>"""
 
 def build(d, out):
     S = []
-    S.append(page(1, d, f'<div class="h" style="font-size:72px;top:190px">{d["cover"]}</div>'
-        f'<div class="p" style="position:absolute;left:80px;right:420px;top:720px">{d["cover_sub"]}</div>' + evilbot(1.05, 660, 700)))
+    S.append(cover(d))
     S.append(page(2, d, '<div class="h">O prompt<br><span class="ho">original</span></div>'
         f'<div class="p" style="position:absolute;left:80px;right:80px;top:350px"><b>{html.escape(d["name"])}</b>: {d["desc"]}</div>'
         f'<div class="cd" style="position:absolute;left:80px;right:80px;top:580px">{lines(d["original"])}</div>'
