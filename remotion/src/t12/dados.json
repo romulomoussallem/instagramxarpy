@@ -1,0 +1,52 @@
+{
+ "n": "12",
+ "slug": "document-skills",
+ "name": "Document Skills",
+ "sub": "Word, Excel, PowerPoint e PDF criados e editados pelo Claude",
+ "what": "Quatro skills oficiais da Anthropic para arquivos de escritório: docx, xlsx, pptx e pdf. O Claude passa a ler, criar e editar esses formatos, em vez de só escrever o texto e deixar a montagem para você.",
+ "bullets": [
+  "Mantidas pela própria Anthropic no repositório anthropics/skills",
+  "Excel: fórmulas, formatação e modelos são preservados",
+  "PDF: leitura, junção, divisão, OCR, marca d'água e formulários"
+ ],
+ "install": [
+  "/plugin marketplace add anthropics/skills",
+  "/plugin install document-skills@anthropic-agent-skills"
+ ],
+ "alt_label": "",
+ "alt": [],
+ "use_title": "O que cada uma faz",
+ "use": [
+  [
+   "docx",
+   "Cria e edita documentos Word com tabelas, cabeçalhos e imagens"
+  ],
+  [
+   "xlsx",
+   "Monta planilhas com fórmulas e mantém o modelo intacto"
+  ],
+  [
+   "pptx",
+   "Gera e ajusta apresentações a partir do seu conteúdo"
+  ],
+  [
+   "pdf",
+   "Lê, junta, divide e preenche PDFs, inclusive com OCR"
+  ]
+ ],
+ "prompt": "Pegue os três PDFs de proposta da pasta, junte em um só arquivo e gere uma planilha com o valor total de cada um.",
+ "pros": [
+  "Entrega o arquivo final, não só o texto",
+  "Funciona com os formatos que o cliente realmente usa",
+  "Automatiza tarefas repetidas de escritório"
+ ],
+ "cons": [
+  "Layouts complexos ainda pedem revisão manual",
+  "Planilhas grandes consomem bastante contexto",
+  "A licença varia por skill, vale conferir antes de usar em produto"
+ ],
+ "next": "Theme Factory",
+ "caption": "Tutorial 12 da série de skills: Document Skills.\n\nSão quatro skills oficiais da Anthropic para arquivos de escritório: Word, Excel, PowerPoint e PDF. Com elas instaladas, o Claude entrega o arquivo pronto, e não só o texto para você montar depois. Para quem trabalha com cliente, é a diferença entre um rascunho e um anexo para enviar.\n\nNos slides: instalação, o que cada skill faz, um pedido para testar e prós e contras.\n\nQual arquivo você mais monta à mão toda semana? Conta nos comentários.\n\n#claudecode #skills #automacao #inteligenciaartificial #ia",
+ "mascote": false,
+ "pose": "apontando"
+}

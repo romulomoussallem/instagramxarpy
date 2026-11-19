@@ -1,0 +1,364 @@
+{
+ "id": "tutorial-01-superpowers",
+ "serie": "tutorial",
+ "fps": 30,
+ "hooks": {
+  "A": {
+   "title": "Seu Claude Code|sai codando sem *pensar*?",
+   "caption": "Seu Claude Code sai codando sem pensar?",
+   "keys": {
+    "pensar": "box"
+   }
+  },
+  "B": {
+   "title": "Pare de pedir código|pro Claude *assim*.",
+   "caption": "Pare de pedir código pro Claude assim.",
+   "keys": {
+    "assim": "box"
+   }
+  },
+  "C": {
+   "title": "Uma skill fez o|Claude Code *planejar*.",
+   "caption": "Uma skill fez o Claude Code planejar antes de codar.",
+   "keys": {
+    "planejar": "box"
+   }
+  }
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "type": "prompt",
+   "dur": 78,
+   "box": {
+    "w": 880,
+    "h": 190,
+    "top": 820
+   },
+   "cam": [
+    [
+     0,
+     1.0,
+     900
+    ],
+    [
+     78,
+     1.06,
+     900
+    ]
+   ],
+   "sfx": [
+    [
+     16,
+     "key"
+    ],
+    [
+     19,
+     "key"
+    ],
+    [
+     22,
+     "key"
+    ],
+    [
+     25,
+     "key"
+    ],
+    [
+     28,
+     "key"
+    ],
+    [
+     31,
+     "key"
+    ],
+    [
+     34,
+     "key"
+    ],
+    [
+     37,
+     "key"
+    ],
+    [
+     40,
+     "key"
+    ],
+    [
+     43,
+     "key"
+    ],
+    [
+     46,
+     "key"
+    ],
+    [
+     52,
+     "enter"
+    ]
+   ]
+  },
+  {
+   "id": "problema",
+   "type": "code",
+   "dur": 108,
+   "box": {
+    "w": 880,
+    "h": 560,
+    "top": 560
+   },
+   "caption": "Ele não pergunta nada.|Sai escrevendo|e erra o que você queria.",
+   "keys": {
+    "erra": "box"
+   },
+   "cam": [
+    [
+     0,
+     1.06,
+     840
+    ],
+    [
+     52,
+     1.0,
+     840
+    ],
+    [
+     70,
+     1.16,
+     1020
+    ],
+    [
+     108,
+     1.18,
+     1020
+    ]
+   ],
+   "sfx": [
+    [
+     66,
+     "error"
+    ]
+   ]
+  },
+  {
+   "id": "revelacao",
+   "type": "product",
+   "dur": 84,
+   "box": {
+    "w": 820,
+    "h": 400,
+    "top": 640
+   },
+   "caption": "A solução é uma skill|chamada Superpowers.",
+   "keys": {
+    "Superpowers": "box"
+   },
+   "cam": [
+    [
+     0,
+     1.12,
+     840
+    ],
+    [
+     30,
+     1.0,
+     840
+    ],
+    [
+     84,
+     1.03,
+     840
+    ]
+   ],
+   "sfx": [
+    [
+     22,
+     "chime"
+    ]
+   ]
+  },
+  {
+   "id": "instala",
+   "type": "terminal",
+   "dur": 102,
+   "box": {
+    "w": 940,
+    "h": 300,
+    "top": 700
+   },
+   "caption": "Você instala com um *comando*.",
+   "keys": {
+    "comando": "pill"
+   },
+   "cam": [
+    [
+     0,
+     1.0,
+     850
+    ],
+    [
+     40,
+     1.12,
+     850
+    ],
+    [
+     102,
+     1.14,
+     850
+    ]
+   ],
+   "sfx": [
+    [
+     64,
+     "enter"
+    ],
+    [
+     74,
+     "chime"
+    ]
+   ]
+  },
+  {
+   "id": "fluxo",
+   "type": "flow",
+   "dur": 120,
+   "box": {
+    "w": 700,
+    "h": 690,
+    "top": 460
+   },
+   "caption": "Antes de codar, ele entende,|faz o plano, testa|e revisa.",
+   "keys": {
+    "plano": "pill"
+   },
+   "cam": [
+    [
+     0,
+     1.08,
+     800
+    ],
+    [
+     24,
+     1.0,
+     800
+    ],
+    [
+     120,
+     1.04,
+     800
+    ]
+   ],
+   "sfx": [
+    [
+     22,
+     "click"
+    ],
+    [
+     44,
+     "click"
+    ],
+    [
+     66,
+     "click"
+    ],
+    [
+     88,
+     "click"
+    ]
+   ]
+  },
+  {
+   "id": "antesdepois",
+   "type": "compare",
+   "dur": 96,
+   "box": {
+    "w": 880,
+    "h": 520,
+    "top": 580
+   },
+   "caption": "Você aprova o plano|antes da primeira|linha de código.",
+   "keys": {
+    "aprova": "box"
+   },
+   "cam": [
+    [
+     0,
+     1.0,
+     840
+    ],
+    [
+     40,
+     1.0,
+     840
+    ],
+    [
+     70,
+     1.1,
+     960
+    ],
+    [
+     96,
+     1.12,
+     960
+    ]
+   ],
+   "sfx": [
+    [
+     50,
+     "click"
+    ]
+   ]
+  },
+  {
+   "id": "cta",
+   "type": "cta",
+   "dur": 102,
+   "box": {
+    "w": 820,
+    "h": 560,
+    "top": 580
+   },
+   "caption": "Salva e segue. E se o seu|Claude Code ainda...",
+   "keys": {
+    "Salva": "pill"
+   },
+   "cam": [
+    [
+     0,
+     1.04,
+     860
+    ],
+    [
+     40,
+     1.0,
+     860
+    ],
+    [
+     90,
+     1.0,
+     900
+    ],
+    [
+     102,
+     1.0,
+     900
+    ]
+   ],
+   "loopBox": {
+    "w": 880,
+    "h": 190,
+    "top": 820
+   },
+   "sfx": [
+    [
+     32,
+     "click"
+    ],
+    [
+     36,
+     "chime"
+    ]
+   ]
+  }
+ ]
+}

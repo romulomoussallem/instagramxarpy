@@ -1,0 +1,240 @@
+/* ---------- telas ---------- */
+const SrcTag: React.FC<{f: number; d: number; t: string; top?: number}> = ({f, d, t, top = 1236}) => (
+  <div style={{position: 'absolute', left: L, top, display: 'flex', alignItems: 'center', gap: 12, fontFamily: 'M', fontWeight: 700, fontSize: 19, letterSpacing: 2, color: MU, ...rise(sp(f, d), 20)}}>
+    <span style={{width: 10, height: 10, borderRadius: 5, background: LIME}} />FONTE · {t}
+  </div>
+);
+
+// 1 · capa: a frase do dono, o dado e 1 em cada 4
+const Capa: React.FC<{f: number}> = ({f}) => {
+  const people = sp(f, 200, SPR.card);
+  const hi = tw(f, 219, 232);
+  const pct = Math.round(tw(f, 60, 110, 0, 23, Easing.out(Easing.cubic)));
+  return (
+    <>
+      {/* gancho visível desde o primeiro quadro */}
+      <div style={{position: 'absolute', left: L, top: 290, width: 860, background: PAPER, color: INK, borderRadius: '28px 28px 28px 6px', padding: '30px 36px',
+        boxShadow: '0 30px 60px rgba(0,0,0,0.5)', transform: `rotate(${-1.5 + Math.sin(f / 40) * 0.3}deg)`}}>
+        <div style={{fontFamily: 'M', fontWeight: 700, fontSize: 20, letterSpacing: 2, color: '#5D7480'}}>DONO DE MEI, 2025</div>
+        <div style={{fontFamily: 'I', fontWeight: 800, fontSize: 76, lineHeight: 1.04, letterSpacing: -2, marginTop: 8}}>
+          “Não sei usar IA no meu <span style={{background: LIME, padding: '0 8px'}}>negócio</span>.”
+        </div>
+      </div>
+      <div style={{position: 'absolute', left: L, top: 690, display: 'flex', alignItems: 'flex-end', gap: 24, ...rise(sp(f, 50, SPR.heavy), 40)}}>
+        <span style={{fontFamily: 'M', fontWeight: 800, fontSize: 200, lineHeight: 0.9, letterSpacing: -10, color: LIME}}>{pct}%</span>
+        <span style={{fontFamily: 'I', fontWeight: 700, fontSize: 34, lineHeight: 1.2, color: TX, paddingBottom: 14, width: 420}}>a dificuldade mais citada pelos MEIs com IA</span>
+      </div>
+      <div style={{position: 'absolute', left: L, top: 950, display: 'flex', gap: 22, alignItems: 'center', opacity: Math.min(1, people * 1.5)}}>
+        {[0, 1, 2, 3].map((i) => {
+          const s = sp(f, 200 + i * 5, SPR.pop);
+          const on = i === 0;
+          const c = on ? interpolateColors(hi, [0, 1], [MU, OR]) : '#2A4A58';
+          return (
+            <svg key={i} width={110} height={150} viewBox="0 0 24 33" style={{transform: `scale(${s})`}}>
+              <circle cx={12} cy={7} r={6} fill={c} /><path d="M1 32c0-8 5-14 11-14s11 6 11 14z" fill={c} />
+            </svg>
+          );
+        })}
+        <span style={{fontFamily: 'I', fontWeight: 800, fontSize: 44, color: TX, marginLeft: 10, ...rise(sp(f, 222), 20)}}>quase <span style={{color: OR}}>1 em 4</span></span>
+      </div>
+      <SrcTag f={f} d={70} t="SEBRAE · FGV IBRE · DEZ/2025" top={1180} />
+    </>
+  );
+};
+
+// 2 · ferramenta sobra, falta o começo
+const TOOLS = ['ChatGPT', 'Claude', 'Gemini', 'Copilot', 'Meta AI', 'Perplexity', 'Canva IA', 'n8n', 'Zapier', 'Notion IA', 'Manus', 'Grok'];
+const Tools: React.FC<{f: number}> = ({f}) => {
+  const pin = sp(f, 44, SPR.pop);
+  return (
+    <>
+      <Title f={f} top={290} size={92} lines={[[{t: 'Não falta'}], [{t: 'ferramenta.'}]]} />
+      <div style={{position: 'absolute', left: L, right: 150, top: 540, display: 'flex', flexWrap: 'wrap', gap: 14}}>
+        {TOOLS.map((t, i) => {
+          const s = sp(f, 2 + i * 2.5, SPR.pop);
+          return <span key={t} style={{fontFamily: 'I', fontWeight: 700, fontSize: 32, color: TX, background: CARD, border: `2px solid ${LN}`, borderRadius: 40, padding: '10px 24px',
+            transform: `scale(${s}) rotate(${(i % 3 - 1) * 2}deg)`, opacity: 1 - 0.55 * tw(f, 40, 52), display: 'inline-block'}}>{t}</span>;
+        })}
+      </div>
+      <div style={{position: 'absolute', left: L, top: 900, display: 'flex', alignItems: 'center', gap: 22, transform: `scale(${pin})`, transformOrigin: 'left center'}}>
+        <svg width={90} height={110} viewBox="0 0 24 30"><path d="M12 29s10-10 10-17A10 10 0 0 0 2 12c0 7 10 17 10 17z" fill={OR} /><circle cx={12} cy={12} r={4} fill={BG} /></svg>
+        <div>
+          <div style={{fontFamily: 'M', fontWeight: 800, fontSize: 22, letterSpacing: 3, color: OR}}>FALTA</div>
+          <div style={{fontFamily: 'M', fontWeight: 800, fontSize: 62, letterSpacing: -2, color: TX, lineHeight: 1}}>por onde <span style={{background: LIME, color: INK, padding: '0 10px'}}>começar</span></div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+// 3 · marketing domina
+const Mkt: React.FC<{f: number}> = ({f}) => {
+  const v = tw(f, 20, 60, 0, 74, Easing.out(Easing.cubic));
+  return (
+    <>
+      <Title f={f} top={290} size={84} lines={[[{t: 'A maioria usa'}], [{t: 'só para '}, {t: 'marketing', a: true}, {t: '.'}]]} />
+      <div style={{position: 'absolute', left: L, right: 150, top: 560, background: CARD, border: `2px solid ${LN}`, borderRadius: 24, padding: '30px 32px', ...rise(sp(f, 10), 40)}}>
+        <div style={{fontFamily: 'M', fontWeight: 700, fontSize: 20, letterSpacing: 2, color: MU}}>PRINCIPAL USO DA IA ENTRE MEIs</div>
+        <div style={{display: 'flex', alignItems: 'baseline', gap: 16, marginTop: 12}}>
+          <span style={{fontFamily: 'M', fontWeight: 800, fontSize: 150, letterSpacing: -8, lineHeight: 1, color: LIME}}>{Math.round(v)}%</span>
+          <span style={{fontFamily: 'I', fontWeight: 700, fontSize: 34, color: TX}}>marketing e divulgação</span>
+        </div>
+        <div style={{height: 26, borderRadius: 13, background: '#0F3240', marginTop: 20, overflow: 'hidden'}}>
+          <div style={{width: `${v}%`, height: '100%', background: LIME, borderRadius: 13}} />
+        </div>
+        <div style={{display: 'flex', gap: 14, marginTop: 22, opacity: tw(f, 60, 72)}}>
+          {['atendimento', 'financeiro', 'operação'].map((t) => (
+            <span key={t} style={{fontFamily: 'I', fontWeight: 600, fontSize: 26, color: MU, border: `2px dashed ${LN}`, borderRadius: 30, padding: '6px 18px'}}>{t}?</span>
+          ))}
+        </div>
+      </div>
+      <SrcTag f={f} d={30} t="SEBRAE · FGV IBRE · DEZ/2025" top={1060} />
+    </>
+  );
+};
+
+// 4 · a semana repetida
+const DAYS = ['SEG', 'TER', 'QUA', 'QUI', 'SEX'];
+const Semana: React.FC<{f: number}> = ({f}) => {
+  const rep = tw(f, 60, 80);
+  return (
+    <>
+      <Title f={f} top={290} size={80} lines={[[{t: 'O ganho está na'}], [{t: 'tarefa '}, {t: 'repetitiva', a: true}]]} />
+      <div style={{position: 'absolute', left: L, right: 150, top: 540, display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 12}}>
+        {DAYS.map((d, i) => (
+          <div key={d} style={{...rise(sp(f, 4 + i * 3), 40)}}>
+            <div style={{fontFamily: 'M', fontWeight: 800, fontSize: 22, color: MU, textAlign: 'center', marginBottom: 10}}>{d}</div>
+            {[0, 1, 2, 3].map((r) => {
+              const isRep = r === 1;
+              const on = isRep ? rep : 0;
+              return (
+                <div key={r} style={{height: r === 1 ? 92 : 64, marginBottom: 10, borderRadius: 12, background: isRep ? interpolateColors(on, [0, 1], [CARD, OR]) : CARD,
+                  border: `2px solid ${isRep ? interpolateColors(on, [0, 1], [LN, OR]) : LN}`, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontFamily: 'I', fontWeight: 800, fontSize: 18, color: '#fff', opacity: isRep ? 1 : 0.6, transform: `scale(${isRep ? 1 + 0.05 * Math.sin(on * Math.PI) : 1})`}}>
+                  {isRep && on > 0.5 ? 'mesma tarefa' : ''}
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </div>
+      <div style={{position: 'absolute', left: L, top: 1010, fontFamily: 'I', fontWeight: 700, fontSize: 36, color: TX, ...rise(sp(f, 96), 24)}}>
+        É ela que toma a sua <span style={{color: OR}}>semana</span>.
+      </div>
+    </>
+  );
+};
+
+// 5 · as três perguntas (checklist que acende com a fala)
+const QS: [string, number, number][] = [['Eu faço isso toda semana?', 91, 167], ['Eu faço sempre do mesmo jeito?', 184, 270], ['O resultado é fácil de conferir?', 287, 372]];
+const Perguntas: React.FC<{f: number}> = ({f}) => (
+  <>
+    <Title f={f} top={290} size={92} lines={[[{t: 'Faça '}, {t: '3 perguntas', a: true}]]} />
+    <div style={{position: 'absolute', left: L, top: 410, fontFamily: 'I', fontWeight: 600, fontSize: 32, color: MU, ...rise(sp(f, 20), 16)}}>para achar a sua primeira automação</div>
+    <div style={{position: 'absolute', left: L, right: 150, top: 500, display: 'flex', flexDirection: 'column', gap: 20}}>
+      {QS.map(([q, at, ok], i) => {
+        const s = sp(f, at - 6, SPR.card);
+        const chk = sp(f, ok, SPR.pop);
+        const act = f >= at && f < ok + 20;
+        return (
+          <div key={q} style={{display: 'flex', alignItems: 'center', gap: 24, background: act ? '#0E2D3B' : CARD, border: `2px solid ${chk > 0.5 ? LIME : act ? '#2E6273' : LN}`, borderRadius: 22,
+            padding: '26px 28px', opacity: 0.25 + 0.75 * Math.min(1, s * 1.5), transform: `translateX(${(1 - s) * -40}px)`}}>
+            <span style={{fontFamily: 'M', fontWeight: 800, fontSize: 30, color: chk > 0.5 ? INK : MU, background: chk > 0.5 ? LIME : 'transparent', border: `2px solid ${chk > 0.5 ? LIME : LN}`,
+              width: 64, height: 64, borderRadius: 14, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
+              {chk > 0.5 ? <svg width={36} height={36} viewBox="0 0 24 24" style={{transform: `scale(${chk})`}}><path d="M4 12.5l5 5L20 6.5" fill="none" stroke={INK} strokeWidth={3.4} strokeLinecap="round" strokeLinejoin="round" /></svg> : i + 1}
+            </span>
+            <span style={{fontFamily: 'I', fontWeight: 800, fontSize: 40, lineHeight: 1.15, color: TX}}>{q}</span>
+            <span style={{marginLeft: 'auto', fontFamily: 'M', fontWeight: 800, fontSize: 26, color: LIME, opacity: chk}}>SIM</span>
+          </div>
+        );
+      })}
+    </div>
+  </>
+);
+
+// 6 · três sim = primeira automação
+const Auto: React.FC<{f: number}> = ({f}) => {
+  const stamp = sp(f, 62, SPR.pop);
+  return (
+    <>
+      <div style={{position: 'absolute', left: L, top: 290, display: 'flex', gap: 16}}>
+        {[0, 1, 2].map((i) => (
+          <span key={i} style={{fontFamily: 'M', fontWeight: 800, fontSize: 34, color: INK, background: LIME, borderRadius: 12, padding: '10px 20px', transform: `scale(${sp(f, 6 + i * 6, SPR.pop)})`, display: 'inline-block'}}>SIM</span>
+        ))}
+      </div>
+      <Title f={f} top={400} size={88} d={20} lines={[[{t: 'Essa é a sua'}], [{t: 'primeira', a: true}], [{t: 'automação.', a: true}]]} />
+      <div style={{position: 'absolute', left: L, right: 150, top: 760, display: 'flex', flexDirection: 'column', gap: 12}}>
+        {['responder orçamento no WhatsApp', 'emitir a nota do mês', 'lembrar o cliente do pagamento'].map((t, i) => (
+          <div key={t} style={{display: 'flex', alignItems: 'center', gap: 16, fontFamily: 'I', fontWeight: 700, fontSize: 32, color: TX, ...rise(sp(f, 74 + i * 8), 24)}}>
+            <span style={{fontFamily: 'M', fontSize: 22, color: OR}}>EX.</span>{t}
+          </div>
+        ))}
+      </div>
+      <div style={{position: 'absolute', left: 560, top: 300, transform: `rotate(-8deg) scale(${stamp})`, opacity: Math.min(1, stamp * 2), border: `5px solid ${OR}`, color: OR, borderRadius: 10,
+        padding: '8px 16px', fontFamily: 'M', fontWeight: 800, fontSize: 28, letterSpacing: 2}}>COMECE POR ELA</div>
+    </>
+  );
+};
+
+const Cta: React.FC<{f: number}> = ({f}) => {
+  const fly = tw(f, 120, 150, 0, 1, Easing.in(Easing.cubic));
+  return (
+    <>
+      <Title f={f} top={290} size={88} lines={[[{t: 'Manda para'}], [{t: 'quem não sabe'}], [{t: 'por onde', a: true}, {t: ' '}, {t: 'começar', a: true}]]} />
+      <div style={{position: 'absolute', left: L, right: 150, top: 690, background: CARD, border: `2px solid ${LN}`, borderRadius: 26, padding: 26, ...rise(sp(f, 10), 40)}}>
+        <div style={{display: 'flex', alignItems: 'center', gap: 14, paddingBottom: 16, borderBottom: `2px solid ${LN}`}}>
+          <div style={{width: 54, height: 54, borderRadius: 27, background: ICE, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'I', fontWeight: 800, fontSize: 24, color: INK}}>?</div>
+          <div style={{fontFamily: 'I', fontWeight: 700, fontSize: 30, color: TX}}>amigo com negócio</div>
+        </div>
+        <div style={{display: 'flex', justifyContent: 'flex-start', marginTop: 20}}>
+          <div style={{background: '#163646', color: TX, borderRadius: '22px 22px 22px 6px', padding: '14px 20px', fontFamily: 'I', fontWeight: 600, fontSize: 28, ...rise(sp(f, 24), 16)}}>não sei por onde começar com IA 😩</div>
+        </div>
+        <div style={{display: 'flex', justifyContent: 'flex-end', marginTop: 14}}>
+          <div style={{background: LIME, color: INK, borderRadius: '22px 22px 6px 22px', padding: '14px 20px', fontFamily: 'I', fontWeight: 800, fontSize: 28, transform: `scale(${sp(f, 56, SPR.pop)})`, transformOrigin: 'right bottom'}}>faz essas 3 perguntas 👇</div>
+        </div>
+      </div>
+      <div style={{position: 'absolute', left: L, top: 1150, display: 'flex', alignItems: 'center', gap: 22, ...rise(sp(f, 80), 30)}}>
+        <div style={{width: 100, height: 100, borderRadius: 50, background: LIME, display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${1 + 0.06 * Math.sin(f / 5)})`}}>
+          <svg width={52} height={52} viewBox="0 0 24 24" style={{transform: `translate(${fly * 60}px, ${-fly * 60}px)`, opacity: 1 - fly}}><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z" stroke={INK} strokeWidth={2.4} fill="none" strokeLinejoin="round" strokeLinecap="round" /></svg>
+        </div>
+        <div style={{fontFamily: 'I', fontWeight: 700, fontSize: 34, color: TX, lineHeight: 1.2}}>Toque em enviar<br /><span style={{color: MU, fontWeight: 600}}>e siga a @xarpy_dev</span></div>
+      </div>
+    </>
+  );
+};
+
+const PAGE_C: React.FC<{f: number}>[] = [Capa, Tools, Mkt, Semana, Perguntas, Auto, Cta];
+
+const Frame: React.FC = () => {
+  const F = useF();
+  const pos = posAt(F);
+  return (
+    <AbsoluteFill style={{background: BG, color: TX}}>
+      <Bg F={F} pos={pos} />
+      {PAGE_C.map((C, i) => {
+        const x = (i - pos) * 1080;
+        if (Math.abs(x) > 1100) return null;
+        return <AbsoluteFill key={i} style={{transform: `translateX(${x}px)`}}><C f={Math.max(0, F - STARTS[i])} /></AbsoluteFill>;
+      })}
+      <Head F={F} pos={pos} />
+      <Caption F={F} />
+      <div style={{position: 'absolute', inset: 0, pointerEvents: 'none', background: 'radial-gradient(ellipse 95% 78% at 50% 45%, transparent 62%, rgba(0,0,0,0.42) 100%)'}} />
+      <Grain />
+    </AbsoluteFill>
+  );
+};
+
+export type R2Props = {safe?: boolean};
+export const Reel2: React.FC<R2Props> = ({safe}) => (
+  <AbsoluteFill style={{background: BG}}>
+    <style>{fontCss}</style>
+    <Frame />
+    {safe && (
+      <AbsoluteFill style={{pointerEvents: 'none'}}>
+        <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: 200, background: 'rgba(255,0,80,0.28)'}} />
+        <div style={{position: 'absolute', left: 0, right: 0, bottom: 0, height: 420, background: 'rgba(255,0,80,0.28)'}} />
+        <div style={{position: 'absolute', right: 0, width: 140, top: 1050, bottom: 420, background: 'rgba(255,0,80,0.28)'}} />
+      </AbsoluteFill>
+    )}
+  </AbsoluteFill>
+);
